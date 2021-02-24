@@ -1094,7 +1094,7 @@ header .inner {
 /* line 639, ../sass/style.scss */
 
 header .header-logo {
-    width: 29%;
+    width: 27%;
     top: 50%;
     position: absolute;
     transform: translateY(-50%);
