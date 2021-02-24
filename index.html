@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8, maximum-scale=0.8, user-scalable=0.8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>株式会社カスタムライフ</title>
+    <!-- KISO Meta -->
+    <meta name="description" content="サイトデスクリプション">
+    <meta name="keywords" content="WEB制作,コンテンツ制作,面白,広告,メディア">
+    <!-- KISO Meta END-->
+    <link rel="icon" sizes="16x16 32x32 48x48 128x128 256x256" href="assets/image/common/favicon.ico">
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style-1.css">
+    <link rel="stylesheet" href="assets/css/article-1.css">
+    <!-- CSS END -->
+    <!-- Meta -->
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ja_JP">
+    <meta property="og:url" content="https://bhb.co.jp">
+    <meta property="og:title" content="株式会社バーグハンバーグバーグ">
+    <meta property="og:image" content="---------assets/image/common/ogp.png?2">
+    <meta property="og:description" content="バーグハンバーグバーグはTwitterを中心として話題になる「おもしろい広告コンテンツ」の得意な会社です。昨今ユーザーに嫌われがちな広告ですが、我々が手がけることで「ユーザーに好かれる広告」を実現します。">
+    <!-- Meta END     -->
+    <!-- Twitter meta -->
+    <meta name="twitter:url" content="https://bhb.co.jp">
+    <meta name="twitter:title" content="株式会社バーグハンバーグバーグ">
+    <meta name="twitter:image" content="---------assets/image/common/ogp.png?2">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@">
+    <meta name="twitter:creator" content="@">
+    <meta name="twitter:domain" content="omocoro.jp">
+    <!-- Twitter end -->
+    <!-- JS  -->
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+    <script src='https://www.youtube.com/iframe_api'></script>
+    <script src='https://jsoon.digitiminimi.com/js/widgetoon.js'></script>
+    <script src='assets/js/script-2.js'></script>
+    <script src="assets/js/lazysizes.min.js"></script>
+    <!-- JS END -->
+
+</head>
+
+<body>
+
+    <div id="fb-root"></div>
+
+    <div class="wrapper">
+
+        <!-- MENU CONTENTS______START -->
+        <header>
+            <div class="inner">
+                <div class="header-logo">
+                    <a href="index.html">
+                        <img class="fit" src="assets/image/header/logo-title001.svg">
+                    </a>
+                </div>
+                <div class="header-hamburger">
+                    <img class="fit" src="assets/image/header/hamburger.png">
+                </div>
+                <ul class="menu">
+                    <li class="home active">
+                        <div><a href="index.html"><span><img class="fit" src="assets/image/header/home.png"></span>ホーム</a></div>
+                    </li>
+                    <li class="service ">
+                        <div><a href="service.html"><span><img class="fit" src="assets/image/header/service.png"></span>サービス</a></div>
+                    </li>
+                    <!-- <li class="works   ">
+                        <div><a href="works.html"><span><img class="fit" src="assets/image/header/works.png"></span>実績</a></div>
+                    </li> -->
+                    <li class="company ">
+                        <div><a href="company.html"><span><img class="fit" src="assets/image/header/company.png"></span>会社概要</a></div>
+                    </li>
+                    <!-- <li class="member ">
+                        <div><a href="member.html"><span><img class="fit" src="assets/image/header/member.png"></span>メンバー</a></div>
+                    </li> -->
+                    <!-- <li class="blog    ">
+                        <div><a href="blog.html"><span><img class="fit" src="assets/image/header/blog.png"></span>ブログ</a></div>
+                    </li> -->
+                    <li class="recruit ">
+                        <div><a href="recruit.html"><span><img class="fit" src="assets/image/header/recruit.png"></span>採用</a></div>
+                    </li>
+                    <li class="contact ">
+                        <div><a href="contact.html"><span><img class="fit" src="assets/image/header/contact.png"></span>お問い合わせ</a></div>
+                    </li>
+                    <li>
+                        <div id="share-pc"><img class="fit" src="assets/image/common/share-icon.png"></div>
+                    </li>
+                </ul>
+                <div class="header-share">
+                    <ul class="sns-buttons">
+                        <li class="twitter">
+                            <a href="" class="sns-button" target="_blank">
+                                <span><img src="assets/image/common/logo_twitter_white.png" class="fit" alt=""></span> ツイート
+                            </a>
+                        </li>
+                        <li class="facebook">
+                            <a href="" class="sns-button" target="_blank">
+                                <span><img src="assets/image/common/logo_facebook_white.png" class="fit" alt=""></span> シェア
+                            </a>
+                        </li>
+                        <li class="line">
+                            <a href="" class="sns-button" target="_blank">
+                                <span><img src="assets/image/common/logo_line_white.png" class="fit" alt=""></span> LINEで送る
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <ul class="menu-sp">
+                <li class="home active">
+                    <div class="js-link" data-url="/"><a>ホーム</a><span><img class="fit" src="assets/image/header/home-sp.png"></span></div>
+                </li>
+                <li class="service ">
+                    <div class="js-link" data-url="/service"><a>サービス</a><span><img class="fit" src="assets/image/header/service-sp.png"></span></div>
+                </li>
+                <!-- <li class="works   ">
+                    <div class="js-link" data-url="/works"><a>実績</a><span><img class="fit" src="assets/image/header/works-sp.png"></span></div>
+                </li> -->
+                <li class="company ">
+                    <div class="js-link" data-url="/company"><a>会社概要</a><span><img class="fit" src="assets/image/header/company-sp.png"></span></div>
+                </li>
+                <!-- <li class="member ">
+                    <div class="js-link" data-url="/member"><a>メンバー</a><span><img class="fit" src="assets/image/header/member-sp.png"></span></div>
+                </li> -->
+                <!-- <li class="blog    ">
+                    <div class="js-link" data-url="/blog"><a>ブログ</a><span><img class="fit" src="assets/image/header/blog-sp.png"></span></div>
+                </li> -->
+                <li class="recruit ">
+                    <div class="js-link" data-url="/recruit"><a>採用</a><span><img class="fit" src="assets/image/header/recruit-sp.png"></span></div>
+                </li>
+                <li class="contact ">
+                    <div class="js-link" data-url="/contact"><a>お問い合わせ</a><span><img class="fit" src="assets/image/header/contact-sp.png"></span></div>
+                </li>
+                <div class="header-sp-share">
+                    <a href="" class="sns-button" target="_blank">
+                        <img src="assets/image/common/logo_twitter.png" class="fit" alt="">
+                    </a>
+                    <a href="" class="sns-button" target="_blank">
+                        <img src="assets/image/common/logo_facebook.png" class="fit" alt="">
+                    </a>
+
+                </div>
+
+            </ul>
+
+        </header>
+
+        <!-- MENU CONTENTS______END -->
+
+        <!-- HERO AREA______START -->
+
+        <div class="contents">
+            <article class="home">
+                <div class="home-brain">
+                    <img class="fit" src="assets/image/home/bg001.png">
+                </div>
+                <div id="load">
+                    <div class="top-wrapper">
+                        <div class="top-textarea-wrapper">
+                            <div class="top-textarea">
+                                <div class="top-h1">
+                                    <img class="fit" src="assets/image/home/home-title.png">
+                                </div>
+                                <p class="top-p">カスタムライフは様々な仕事から世間に話題を起こすために「活性化するおもしろさ」を提供する会社です。昨今の情勢を好転させ、”活性×面白い”を兼任するプロ集団です。</p>
+                                <div class="top-btn">
+                                    <a href="service.html" style="  position: relative; z-index: 99;">
+                                        <img class="fit" src="assets/image/home/home-btn.png">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="top-slider">
+
+                            <div class="slide0 top-slider-slide" data-url="---------seisaku/13739/">
+                                <div class="banner-new"><img class="fit" src="assets/image/home/banner-new.png"></div>
+                                <div class="image">
+                                    <a rel='nofollow'><img class="fit" src="assets/image/home/silder/001.png"></a>
+                                </div>
+                                <div class="detail">
+                                    <div class="date">
+                                        <span class="month">00/</span>
+                                        <span class="day">00</span>
+                                    </div>
+                                    <div class="title"><a rel='nofollow'>title000</a></div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="slide1 top-slider-slide" data-url="---------works/13732/">
+                                <div class="image">
+                                    <a rel='nofollow'><img class="fit" src="assets/image/home/silder/001.png"></a>
+                                </div>
+                                <div class="detail">
+                                    <div class="date">
+                                        <span class="month">11/</span>
+                                        <span class="day">11</span>
+                                    </div>
+                                    <div class="title"><a rel='nofollow'>title001</a></div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="slide2 top-slider-slide" data-url="---------works/13660/">
+                                <div class="image">
+                                    <a rel='nofollow'><img class="fit" src="assets/image/home/silder/001.png"></a>
+                                </div>
+                                <div class="detail">
+                                    <div class="date">
+                                        <span class="month">22/</span>
+                                        <span class="day">22</span>
+                                    </div>
+                                    <div class="title"><a rel='nofollow'>title002</a></div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="slide3 top-slider-slide" data-url="---------works/13201/">
+                                <div class="image">
+                                    <a rel='nofollow'><img class="fit" src="assets/image/home/silder/001.png"></a>
+                                </div>
+                                <div class="detail">
+                                    <div class="date">
+                                        <span class="month">33/</span>
+                                        <span class="day">33</span>
+                                    </div>
+                                    <div class="title"><a rel='nofollow'>title003</a></div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="top-slider-sp">
+
+                            <div class="slidesp0 top-slider-slide-sp" data-url="---------seisaku/13739/">
+                                <div class="banner-new"><img class="fit" src="assets/image/home/banner-new.png"></div>
+                                <div class="image">
+                                    <a rel='nofollow'><img class="fit" src="assets/image/home/silder/001-sp.png"></a>
+                                </div>
+                                <div class="detail">
+                                    <div class="date">
+                                        <span class="month">00/</span>
+                                        <span class="day">00</span>
+                                    </div>
+                                    <div class="title"><a rel='nofollow'>title000</a></div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="slidesp1 top-slider-slide-sp" data-url="---------works/13732/">
+                                <div class="image">
+                                    <a rel='nofollow'><img class="fit" src="assets/image/home/silder/001-sp.png"></a>
+                                </div>
+                                <div class="detail">
+                                    <div class="date">
+                                        <span class="month">11/</span>
+                                        <span class="day">11</span>
+                                    </div>
+                                    <div class="title"><a rel='nofollow'>title001</a></div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="slidesp2 top-slider-slide-sp" data-url="---------works/13660/">
+                                <div class="image">
+                                    <a rel='nofollow'><img class="fit" src="assets/image/home/silder/001-sp.png"></a>
+                                </div>
+                                <div class="detail">
+                                    <div class="date">
+                                        <span class="month">22/</span>
+                                        <span class="day">22</span>
+                                    </div>
+                                    <div class="title"><a rel='nofollow'>title002</a></div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="slidesp3 top-slider-slide-sp" data-url="---------works/13201/">
+                                <div class="image">
+                                    <a rel='nofollow'><img class="fit" src="assets/image/home/silder/001-sp.png"></a>
+                                </div>
+                                <div class="detail">
+                                    <div class="date">
+                                        <span class="month">33/</span>
+                                        <span class="day">33</span>
+                                    </div>
+                                    <div class="title"><a rel='nofollow'>title003</a></div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+
+
+                    </div>
+                    <div class="about-wrapper">
+                        <div class="about-wrapper2">
+                            <div class="about-container">
+                                <div class="about-textarea">
+                                    <div class="about-h1">
+                                        <img class="fit" src="assets/image/home/home-title2.png">
+                                    </div>
+                                    <p>幅広い運営コンテンツを駆使して、世の中の活性化を実現する。他社が真似できないコンテンツを制作、ジャンルごとに特質としたプロが弊社に揃っております。</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="about-footer">
+                            <div class="about-footer-text">
+
+                            </div>
+                        </div>
+                        <div class="about-slider">
+                            <div class="about-slider-slide" data-text="サンプル｜１タイトル">
+
+                                <picture>
+                                    <source class="fit" media="(min-width: 769px)" srcset="assets/image/home/top-about-image1.png">
+                                    <img class="fit" src="assets/image/home/top-about-image1-sp.png" alt="">
+                                </picture>
+                            </div>
+                            <div class="about-slider-slide" data-text="サンプル｜２タイトル">
+                                <picture>
+                                    <source class="fit" media="(min-width: 769px)" srcset="assets/image/home/top-about-image1.png">
+                                    <img class="fit" src="assets/image/home/top-about-image1-sp.png" alt="">
+                                </picture>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <link rel="stylesheet" type="text/css" href="assets/css/slick.css" media="screen" />
+                <script type="text/javascript" src="assets/js/slick.min-.js"></script>
+                <script>
+                    $('.about-slider').slick({
+                        autoplay: true,
+
+                        infinite: true,
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        arrows: true,
+                        prevArrow: '<button type="button" class="slick-prev"></button>',
+                        nextArrow: '<button type="button" class="slick-next"></button>',
+                    });
+                    $('.about-footer-text').text($('.slick-current').attr('data-text'));
+                    $('.about-slider').on('afterChange', function(event, slick, currentSlide) {
+                        $('.about-footer-text').text($('.slick-current').attr('data-text'));
+                    });
+                </script>
+                <div class="news-wrapper">
+
+                    <div class="bg-text inview02"><img class="fit" src="assets/image/common/bg-text-news.png"></div>
+                    <div class="news-h1 inview01">
+                        ニュース
+                    </div>
+                    <div class="news-list-wrapper inview03">
+
+
+                        <div class="list-box is_page">
+                            <div class="image">
+                                <a href="seisaku/13824/index.html" rel='nofollow'><img class="lazyload fit" src="assets/image/news/001.png"></a>
+                            </div>
+                            <div class="detail">
+                                <div class="detail-left">
+                                    <div class="tag">
+                                        <img src="assets/image/about/about-title.png" class="fit" alt="">
+                                    </div>
+                                    <div class="date">
+                                        <span>00. 00</span>
+                                    </div>
+                                </div>
+                                <div class="title"><a href="seisaku/13824/index.html" rel='nofollow'>サイトリニューアルのお知らせ</a></div>
+
+                            </div>
+                        </div>
+
+
+
+                        <div class="list-box is_page">
+                            <div class="image">
+                                <a href="https://omocoro.jp/kiji/265804/" target='_blank' rel='nofollow'><img class="lazyload fit" src="assets/image/news/001.png"></a>
+                            </div>
+                            <div class="detail">
+                                <div class="detail-left">
+                                    <div class="tag">
+                                        <img src="assets/image/about/about-title.png" class="fit" alt="">
+                                    </div>
+                                    <div class="date">
+                                        <span>01. 01</span>
+                                    </div>
+                                </div>
+                                <div class="title"><a href="https://omocoro.jp/kiji/265804/" target='_blank' rel='nofollow'>更新しました</a></div>
+
+                            </div>
+                        </div>
+
+                        <!-- 
+
+                        <div class="list-box is_page">
+                            <div class="image">
+                                <a href="https://omocoro.jp/bros/kiji/266752/" target='_blank' rel='nofollow'><img class="lazyload fit" src="assets/uploads/16099818925r56t-640x336.jpg"></a>
+                            </div>
+                            <div class="detail">
+                                <div class="detail-left">
+                                    <div class="tag">
+                                        <img src="assets/image/common/tag-bros.png" class="fit" alt="">
+                                    </div>
+                                    <div class="date">
+                                        <span>01. 07</span>
+                                    </div>
+                                </div>
+                                <div class="title"><a href="https://omocoro.jp/bros/kiji/266752/" target='_blank' rel='nofollow'>ポータブル電源で冬キャンプに初挑戦したらギリギリ大丈夫だ...</a></div>
+
+                            </div>
+                        </div> -->
+
+
+                        <!-- 
+                        <div class="list-box is_page">
+                            <div class="image">
+                                <a href="https://www.youtube.com/watch?v=CiK6f06pK_I" target='_blank' rel='nofollow'><img class="lazyload fit" src="assets/uploads/AB-640x336.jpg"></a>
+                            </div>
+                            <div class="detail">
+                                <div class="detail-left">
+                                    <div class="tag">
+                                        <img src="assets/image/common/tag-youtube.png" class="fit" alt="">
+                                    </div>
+                                    <div class="date">
+                                        <span>01. 02</span>
+                                    </div>
+                                </div>
+                                <div class="title"><a href="https://www.youtube.com/watch?v=CiK6f06pK_I" target='_blank' rel='nofollow'>まだ伊達巻き食べてるの？ NEWおせちを作るっち！</a></div>
+
+                            </div>
+                        </div> -->
+
+
+                    </div>
+                </div>
+                <div class="menu-wrapper">
+                    <div class="bg-text inview02"><img class="fit" src="assets/image/common/bg-text-menu.png"></div>
+                    <div class="news-h1 inview01">
+                        メニュー
+                    </div>
+                    <div class="menu-content inview03">
+
+                        <a href="service.html" style="display:block; color: black;" class="menu-1 lazyload">
+                            <div class="menu-textarea">
+                                <h3>仕事に<br class="v-sp">ついて<br>知りたい</h3>
+                                <p>SERVICE</p>
+                                <div class="menu-textarea-img">
+                                    <img class="fit" src="assets/image/home/menu-arrow.png">
+                                </div>
+                            </div>
+                        </a>
+                        <div class="menu-2">
+                            <a href="company.html" style="display:block; color: black;" class="menu-2-1 lazyload">
+                                <div class="menu-textarea">
+                                    <h3>会社について<br>知りたい</h3>
+                                    <p>COMPANY</p>
+                                    <div class="menu-textarea-img">
+                                        <img class="fit" src="assets/image/home/menu-arrow.png">
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="works.html" style="display:block; color: black;" class="menu-2-2 lazyload">
+                                <div class="menu-textarea">
+                                    <h3>採用情報</h3>
+                                    <p>RECRUIT</p>
+                                    <div class="menu-textarea-img">
+                                        <img class="fit" src="assets/image/home/menu-arrow.png">
+                                    </div>
+                                </div>
+                            </a>
+
+                        </div>
+                        <div class="menu-3">
+                            <a href="member.html" style="display:block; color: black;" class="menu-3-1 lazyload">
+                                <div class="">
+                                    <div class="menu-textarea">
+                                        <h3>お問い合わせ</h3>
+                                        <p>CONTACT</p>
+                                        <div class="menu-textarea-img">
+                                            <img class="fit" src="assets/image/home/menu-arrow.png">
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </a>
+
+                        </div>
+                        <div class="menu-4">
+
+                            <a href="contact.html" style="display:block; color: black;" class="menu-4-1 lazyload">
+                                <div class="menu-textarea">
+                                    <h3>運営媒体</h3>
+                                    <p>＝＝＝＝</p>
+                                    <div class="menu-textarea-img">
+                                        <img class="fit" src="assets/image/home/menu-arrow.png">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+
+
+
+            </article>
+
+
+        </div>
+        <script>
+            $(function($) {
+                /* ----------------------------------------------------------
+
+                	slider pc
+
+                ---------------------------------------------------------- */
+
+                var log = function() {
+                    animationS1();
+                    slide3 = (slide3 + 1) % 4;
+                    slide2 = (slide2 + 1) % 4;
+                    slide1 = (slide1 + 1) % 4;
+                    slide0 = (slide0 + 1) % 4;
+                    animationS3();
+                    slide3s = (slide3s + 1) % 4;
+                    slide2s = (slide2s + 1) % 4;
+                    slide1s = (slide1s + 1) % 4;
+                    slide0s = (slide0s + 1) % 4;
+                };
+                setInterval(log, 4000);
+                // setTimeout(log, 100);
+
+                var slide3 = 3;
+                var slide2 = 2;
+                var slide1 = 1;
+                var slide0 = 0;
+                // console.log(slide0);
+
+                $('.top-slider-slide').click(function() {
+
+                    if ($(this).hasClass('slide' + slide1) || $(this).hasClass('slide' + slide2) || $(this).hasClass('slide' + slide3)) {
+                        animationS1();
+                        slide3 = (slide3 + 1) % 4;
+                        slide2 = (slide2 + 1) % 4;
+                        slide1 = (slide1 + 1) % 4;
+                        slide0 = (slide0 + 1) % 4;
+                        // console.log(slide0);
+                    } else {
+                        window.open($(this).attr('data-url'));
+                    };
+
+                });
+
+                function animationS1() {
+                    var title1 = new TimelineMax();
+                    title1.to('.slide' + slide0, 0.5, {
+                        // ease: Back.easeOut.config(.9),
+                        right: "-26%",
+                        bottom: "30%",
+                        rotationZ: 32,
+                        zIndex: 5,
+
+                    }, .0);
+                    title1.to('.slide' + slide1, 0.5, {
+                        // ease: Back.easeOut.config(.9),
+                        right: "0",
+                        bottom: "0",
+                        rotationZ: 0,
+                        zIndex: 8,
+
+                    }, .0);
+                    title1.to('.slide' + slide2, 0.5, {
+                        // ease: Back.easeOut.config(.9),
+                        right: "-10%",
+                        bottom: "19%",
+                        rotationZ: 13,
+                        zIndex: 7,
+
+                    }, .0);
+                    title1.to('.slide' + slide3, 0.5, {
+                        // ease: Back.easeOut.config(.9),
+                        right: "-17%",
+                        bottom: "28%",
+                        rotationZ: 22,
+                        zIndex: 6,
+                    }, .0);
+                }
+                /* ----------------------------------------------------------
+
+                	slider sp
+
+                ---------------------------------------------------------- */
+
+                var slide3s = 3;
+                var slide2s = 2;
+                var slide1s = 1;
+                var slide0s = 0;
+                // console.log(slide0s);
+
+                $('.top-slider-slide-sp').click(function() {
+                    if ($(this).hasClass('slidesp' + slide0s)) {
+                        animationS3();
+                        slide3s = (slide3s + 1) % 4;
+                        slide2s = (slide2s + 1) % 4;
+                        slide1s = (slide1s + 1) % 4;
+                        slide0s = (slide0s + 1) % 4;
+                        // console.log(slide0s);
+                    } else if ($(this).hasClass('slidesp' + slide2s) || $(this).hasClass('slidesp' + slide3s)) {
+                        animationS2();
+                        slide3s = (slide3s + 3) % 4;
+                        slide2s = (slide2s + 3) % 4;
+                        slide1s = (slide1s + 3) % 4;
+                        slide0s = (slide0s + 3) % 4;
+                    } else {
+                        window.open($(this).attr('data-url'));
+                    };
+                });
+
+                function animationS2() {
+                    var title1 = new TimelineMax();
+                    title1.to('.slidesp' + slide0s, 0.5, {
+                        // ease: Back.easeOut.config(.9),
+                        right: "2%",
+                        bottom: "-6%",
+                        rotationZ: 0,
+                        zIndex: 8,
+                    }, .0);
+                    title1.to('.slidesp' + slide1s, 0.5, {
+                        // ease: Back.easeOut.config(.9),
+                        right: "-5%",
+                        bottom: "-31%",
+                        rotationZ: -16,
+                        zIndex: 7,
+
+                    }, .0);
+                    title1.to('.slidesp' + slide2s, 0.5, {
+                        // ease: Back.easeOut.config(.9),
+                        right: "-17%",
+                        bottom: "-42%",
+                        rotationZ: -28,
+                        zIndex: 6,
+                    }, .0);
+                    title1.to('.slidesp' + slide3s, 0.5, {
+                        // ease: Back.easeOut.config(.9),
+                        right: "-10%",
+                        bottom: "17%",
+                        rotationZ: 16,
+                        zIndex: 5,
+                    }, .0);
+                }
+
+                function animationS3() {
+                    var title1 = new TimelineMax();
+                    title1.to('.slidesp' + slide0s, 0.5, {
+                        // ease: Back.easeOut.config(.9),
+                        right: "-17%",
+                        bottom: "-42%",
+                        rotationZ: -28,
+                        zIndex: 6,
+                    }, .0);
+                    title1.to('.slidesp' + slide1s, 0.5, {
+                        // ease: Back.easeOut.config(.9),
+                        right: "-10%",
+                        bottom: "17%",
+                        rotationZ: 16,
+                        zIndex: 5,
+                    }, .0);
+                    title1.to('.slidesp' + slide2s, 0.5, {
+                        // ease: Back.easeOut.config(.9),
+                        right: "2%",
+                        bottom: "-6%",
+                        rotationZ: 0,
+                        zIndex: 8,
+                    }, .0);
+                    title1.to('.slidesp' + slide3s, 0.5, {
+                        // ease: Back.easeOut.config(.9),
+                        right: "-5%",
+                        bottom: "-31%",
+                        rotationZ: -16,
+                        zIndex: 7,
+                    }, .0);
+                }
+
+
+            });
+        </script>
+
+        <!-- <div class="social-widget">
+	<div class="inner">
+		<div class="twitter-widget">
+			<a class="twitter-timeline" href="https://twitter.com/BHB_official" data-widget-id="643961208169598976" height="250">@BHB_officialさんのツイート</a>
+		</div>
+		<div class="facebook-widget">
+			<div class="fb-page" data-href="https://www.facebook.com/burghamburgburg" data-width="400" data-height="250" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/burghamburgburg"><a href="https://www.facebook.com/burghamburgburg">株式会社バーグハンバーグバーグ</a></blockquote></div></div>
+		</div>
+	</div>
+</div> -->
+
+        <footer>
+            <div class="inner">
+                <div class="logo">
+                    <div class="logo-image">
+                        <img class="fit" src="assets/image/header/logo-title002.svg">
+                    </div>
+                </div>
+                <div class="footer-right">
+                    <ul class="menu">
+                        <li><a href="index.html">ホーム</a></li>
+                        <li><a href="service.html">サービス</a></li>
+                        <!-- <li><a href="works.html">実績</a></li> -->
+                        <li><a href="company.html">会社概要</a></li>
+                        <!-- <li><a href="member.html">メンバー</a></li> -->
+                        <!-- <li><a href="blog.html">ブログ</a></li> -->
+                        <li><a href="recruit.html">採用</a></li>
+                        <li><a href="contact.html">お問い合わせ</a></li>
+                    </ul>
+                    <div class="footer-bottom">
+                        <a href="policy.html" class="policy">
+              プライバシーポリシー
+            </a>
+                        <div class="copy">
+                            &copy; 2021 カスタムライフ All Rights Reserved.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!--     <div class="">
+        <a class="three-d-trigger" href="#">3D</a>
+    </div>
+ -->
+        </footer>
+
+    </div>
+
+    <!-- <div class="modal-window" id="policy-view">
+    <a href="#" class="close"></a>
+    <div class="modal-inner">
+
+        <h4>プライバシーポリシー</h4>
+        <p>オシッコと個人情報は漏らさないように努力します</p>
+
+    </div>
+</div> -->
+
+
+    <div class="overlay"></div>
+
+    <script type='text/javascript' src='assets/plugins/contact-form-7/includes/js/jquery.form.min.js'></script>
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var _wpcf7 = {
+            "loaderUrl": "https:\/\/bhb.co.jp\/assets\/plugins\/contact-form-7\/images\/ajax-loader.gif",
+            "recaptcha": {
+                "messages": {
+                    "empty": "\u3042\u306a\u305f\u304c\u30ed\u30dc\u30c3\u30c8\u3067\u306f\u306a\u3044\u3053\u3068\u3092\u8a3c\u660e\u3057\u3066\u304f\u3060\u3055\u3044\u3002"
+                }
+            },
+            "sending": "\u9001\u4fe1\u4e2d ...",
+            "cached": "1"
+        };
+        /* ]]> */
+    </script>
+    <script type='text/javascript' src='assets/plugins/contact-form-7/includes/js/scripts.js'></script>
+    <script type='text/javascript' src='wp/wp-includes/js/wp-embed.min.js'></script>
+
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-35312027-1']);
+        _gaq.push(['_setDomainName', 'bhb.co.jp']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+
+            TransitionToUserPage();
+
+            function TransitionToUserPage() {
+                $('.js-link').on('click', function(e) {
+                    // e.stopPropagation();
+                    // e.preventDefault();
+
+                    // window.open($(this).attr('data-url')); 別タブで開く場合
+                    location.href = $(this).attr('data-url');
+                });
+            }
+        })();
+    </script>
+</body>
+
+</html>

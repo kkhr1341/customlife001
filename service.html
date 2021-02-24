@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8, maximum-scale=0.8, user-scalable=0.8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>株式会社カスタムライフ</title>
+    <!-- KISO Meta -->
+    <meta name="description" content="サイトデスクリプション">
+    <meta name="keywords" content="WEB制作,コンテンツ制作,面白,広告,メディア">
+    <!-- KISO Meta END-->
+    <link rel="icon" sizes="16x16 32x32 48x48 128x128 256x256" href="assets/image/common/favicon.ico">
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style-1.css">
+    <link rel="stylesheet" href="assets/css/article-1.css">
+    <!-- CSS END -->
+    <!-- Meta -->
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ja_JP">
+    <meta property="og:url" content="https://bhb.co.jp">
+    <meta property="og:title" content="株式会社バーグハンバーグバーグ">
+    <meta property="og:image" content="---------assets/image/common/ogp.png?2">
+    <meta property="og:description" content="バーグハンバーグバーグはTwitterを中心として話題になる「おもしろい広告コンテンツ」の得意な会社です。昨今ユーザーに嫌われがちな広告ですが、我々が手がけることで「ユーザーに好かれる広告」を実現します。">
+    <!-- Meta END     -->
+    <!-- Twitter meta -->
+    <meta name="twitter:url" content="https://bhb.co.jp">
+    <meta name="twitter:title" content="株式会社バーグハンバーグバーグ">
+    <meta name="twitter:image" content="---------assets/image/common/ogp.png?2">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@">
+    <meta name="twitter:creator" content="@">
+    <meta name="twitter:domain" content="omocoro.jp">
+    <!-- Twitter end -->
+    <!-- JS  -->
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+    <script src='https://www.youtube.com/iframe_api'></script>
+    <script src='https://jsoon.digitiminimi.com/js/widgetoon.js'></script>
+    <script src='assets/js/script-2.js'></script>
+    <script src="assets/js/lazysizes.min.js"></script>
+    <!-- JS END -->
+
+</head>
+
+
+<body>
+
+    <div id="fb-root"></div>
+
+    <div class="wrapper">
+        <!-- MENU CONTENTS______START -->
+        <header>
+            <div class="inner">
+                <div class="header-logo">
+                    <a href="index.html">
+                        <img class="fit" src="assets/image/header/logo-title001.svg">
+                    </a>
+                </div>
+                <div class="header-hamburger">
+                    <img class="fit" src="assets/image/header/hamburger.png">
+                </div>
+                <ul class="menu">
+                    <li class="home">
+                        <div><a href="index.html"><span><img class="fit" src="assets/image/header/home.png"></span>ホーム</a></div>
+                    </li>
+                    <li class="service  active">
+                        <div><a href="service.html"><span><img class="fit" src="assets/image/header/service.png"></span>サービス</a></div>
+                    </li>
+                    <!-- <li class="works   ">
+                        <div><a href="works.html"><span><img class="fit" src="assets/image/header/works.png"></span>実績</a></div>
+                    </li> -->
+                    <li class="company ">
+                        <div><a href="company.html"><span><img class="fit" src="assets/image/header/company.png"></span>会社概要</a></div>
+                    </li>
+                    <!-- <li class="member ">
+                        <div><a href="member.html"><span><img class="fit" src="assets/image/header/member.png"></span>メンバー</a></div>
+                    </li> -->
+                    <!-- <li class="blog    ">
+                        <div><a href="blog.html"><span><img class="fit" src="assets/image/header/blog.png"></span>ブログ</a></div>
+                    </li> -->
+                    <li class="recruit ">
+                        <div><a href="recruit.html"><span><img class="fit" src="assets/image/header/recruit.png"></span>採用</a></div>
+                    </li>
+                    <li class="contact ">
+                        <div><a href="contact.html"><span><img class="fit" src="assets/image/header/contact.png"></span>お問い合わせ</a></div>
+                    </li>
+                    <li>
+                        <div id="share-pc"><img class="fit" src="assets/image/common/share-icon.png"></div>
+                    </li>
+                </ul>
+                <div class="header-share">
+                    <ul class="sns-buttons">
+                        <li class="twitter">
+                            <a href="" class="sns-button" target="_blank">
+                                <span><img src="assets/image/common/logo_twitter_white.png" class="fit" alt=""></span> ツイート
+                            </a>
+                        </li>
+                        <li class="facebook">
+                            <a href="" class="sns-button" target="_blank">
+                                <span><img src="assets/image/common/logo_facebook_white.png" class="fit" alt=""></span> シェア
+                            </a>
+                        </li>
+                        <li class="line">
+                            <a href="" class="sns-button" target="_blank">
+                                <span><img src="assets/image/common/logo_line_white.png" class="fit" alt=""></span> LINEで送る
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <ul class="menu-sp">
+                <li class="home">
+                    <div class="js-link" data-url="/"><a>ホーム</a><span><img class="fit" src="assets/image/header/home-sp.png"></span></div>
+                </li>
+                <li class="service active">
+                    <div class="js-link" data-url="/service"><a>サービス</a><span><img class="fit" src="assets/image/header/service-sp.png"></span></div>
+                </li>
+                <!-- <li class="works   ">
+                  <div class="js-link" data-url="/works"><a>実績</a><span><img class="fit" src="assets/image/header/works-sp.png"></span></div>
+              </li> -->
+                <li class="company ">
+                    <div class="js-link" data-url="/company"><a>会社概要</a><span><img class="fit" src="assets/image/header/company-sp.png"></span></div>
+                </li>
+                <!-- <li class="member ">
+                  <div class="js-link" data-url="/member"><a>メンバー</a><span><img class="fit" src="assets/image/header/member-sp.png"></span></div>
+              </li> -->
+                <!-- <li class="blog    ">
+                  <div class="js-link" data-url="/blog"><a>ブログ</a><span><img class="fit" src="assets/image/header/blog-sp.png"></span></div>
+              </li> -->
+                <li class="recruit ">
+                    <div class="js-link" data-url="/recruit"><a>採用</a><span><img class="fit" src="assets/image/header/recruit-sp.png"></span></div>
+                </li>
+                <li class="contact ">
+                    <div class="js-link" data-url="/contact"><a>お問い合わせ</a><span><img class="fit" src="assets/image/header/contact-sp.png"></span></div>
+                </li>
+                <div class="header-sp-share">
+                    <a href="" class="sns-button" target="_blank">
+                        <img src="assets/image/common/logo_twitter.png" class="fit" alt="">
+                    </a>
+                    <a href="" class="sns-button" target="_blank">
+                        <img src="assets/image/common/logo_facebook.png" class="fit" alt="">
+                    </a>
+
+                </div>
+
+            </ul>
+
+        </header>
+
+        <!-- MENU CONTENTS______END -->
+
+        <div class="contents">
+            <article class="service">
+                <div class="article-h1">
+                    <h1 class="inview01">サービス</h1>
+                    <p class="inview02">Service</p>
+                </div>
+                <picture class="bg-header">
+                    <source class="fit" media="(min-width: 768px)" srcset="/assets/image/common/bg-header-omocoro.png">
+                    <img class="fit" src="assets/image/common/bg-header-omocoro-sp.png" alt="">
+                </picture>
+                <div class="bg-text inview02"><img class="fit" src="assets/image/common/bg-text-media.png"></div>
+
+
+
+
+                <div class="service-media-wrapper">
+                    <div id="slider1" class="inview02">
+
+
+                        <div class="sp-slide">
+                            <a href="seisaku/13739/index.html" rel='nofollow'>
+                                <div class="image">
+                                    <a class="slide-a" href="seisaku/13739/index.html" rel='nofollow'>
+                                        <img class="fit" src="assets/image/home/silder/001-sp.png">
+                                    </a>
+                                </div>
+                                <div class="detail">
+                                    <div class="detail-left">
+                                        <div class="tag">
+                                            <img src="assets/image/about/about-title.png" class="fit" alt="">
+                                        </div>
+                                        <div class="date">
+                                            <span>00. 00</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="title"><a href="seisaku/13739/index.html" rel='nofollow'>シールダー０</a></div>
+
+                                </div>
+                            </a>
+                        </div>
+
+
+                        <div class="sp-slide">
+                            <a href="works/13201/index.html" rel='nofollow'>
+                                <div class="image">
+                                    <a class="slide-a" href="works/13201/index.html" rel='nofollow'>
+                                        <img class="fit" src="assets/image/home/silder/001-sp.png">
+                                    </a>
+                                </div>
+                                <div class="detail">
+                                    <div class="detail-left">
+                                        <div class="tag">
+                                            <img src="assets/image/about/about-title.png" class="fit" alt="">
+                                        </div>
+                                        <div class="date">
+                                            <span>11. 11</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="title"><a href="works/13201/index.html" rel='nofollow'>シールダー１</a></div>
+
+                                </div>
+                            </a>
+                        </div>
+
+
+                        <div class="sp-slide">
+                            <a href="works/13204/index.html" rel='nofollow'>
+                                <div class="image">
+                                    <a class="slide-a" href="works/13204/index.html" rel='nofollow'>
+                                        <img class="fit" src="assets/image/home/silder/001-sp.png">
+                                    </a>
+                                </div>
+                                <div class="detail">
+                                    <div class="detail-left">
+                                        <div class="tag">
+                                            <img src="assets/image/about/about-title.png" class="fit" alt="">
+                                        </div>
+                                        <div class="date">
+                                            <span>22. 22</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="title"><a href="works/13204/index.html" rel='nofollow'>シールダー２</a></div>
+
+                                </div>
+                            </a>
+                        </div>
+
+
+                        <div class="sp-slide">
+                            <a href="works/13024/index.html" rel='nofollow'>
+                                <div class="image">
+                                    <a class="slide-a" href="works/13024/index.html" rel='nofollow'>
+                                        <img class="fit" src="assets/image/home/silder/001-sp.png">
+                                    </a>
+                                </div>
+                                <div class="detail">
+                                    <div class="detail-left">
+                                        <div class="tag">
+                                            <img src="assets/image/about/about-title.png" class="fit" alt="">
+                                        </div>
+                                        <div class="date">
+                                            <span>33. 33</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="title"><a href="works/13024/index.html" rel='nofollow'>シールダー３</a></div>
+
+                                </div>
+                            </a>
+                        </div>
+
+
+                        <div class="sp-slide">
+                            <a href="works/13269/index.html" rel='nofollow'>
+                                <div class="image">
+                                    <a class="slide-a" href="works/13269/index.html" rel='nofollow'>
+                                        <img class="fit" src="assets/image/home/silder/001-sp.png">
+                                    </a>
+                                </div>
+                                <div class="detail">
+                                    <div class="detail-left">
+                                        <div class="tag">
+                                            <img src="assets/image/about/about-title.png" class="fit" alt="">
+                                        </div>
+                                        <div class="date">
+                                            <span>44. 44</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="title"><a href="works/13269/index.html" rel='nofollow'>シールダー４</a></div>
+
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+                    <p class="inview03">弊社は○○のサービスを取り扱っております</p>
+
+                    <h3 class="inview03">自社運営コンテンツ</h3>
+                    <div class="service-media-media service-media-omocoro js-link inview03" data-url="/service/omocoro/">
+                        <div class="service-media-content">
+                            <div class="service-media-left">
+                                <img class="fit" src="assets/image/about/about-title.png">
+                            </div>
+                            <div class="service-media-right">
+                                <h2>話題の第１弾<br>○○ってやっぱいいよね</h2>
+                                <a class="service-btn">
+                                    <span>詳細を見る ▶︎</span>
+                                    <div class="service-btn-black">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="service-media-media service-media-bros js-link inview03" data-url="/service/bros/">
+                        <div class="service-media-content">
+                            <div class="service-media-left">
+                                <img class="fit" src="assets/image/about/about-title.png">
+                            </div>
+                            <div class="service-media-right">
+                                <h2>待望の第２弾<br>前代未聞の○○プレイ</h2>
+                                <a href="" class="service-btn">
+                                    <span>詳細を見る ▶︎</span>
+                                    <div class="service-btn-black">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3 class="inview03">YouTubeチャンネル</h3>
+                    <div class="service-media-media service-media-youtube js-link inview03" data-url="/service/youtube/">
+                        <div class="service-media-content">
+                            <div class="service-media-left">
+                                <img class="fit" src="assets/image/about/about-title.png">
+                            </div>
+                            <div class="service-media-right">
+                                <h2>人気インフルエンサー<br>出演のエンタメチャンネル</h2>
+                                <a href="                  " class="service-btn">
+                                    <span>詳細を見る▶︎</span>
+                                    <div class="service-btn-black">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="service-media-media2 inview03">
+                        <div class="service-media-media2-left js-link" data-url="/service/media/">
+                            <!-- <div class="service-media-media2-black"></div> -->
+                            <h3 style="margin-left: 0;">オウンドメディア運営</h3>
+                            <div class="service-media-image">
+                                <img class="fit" src="assets/image/home/service001.png">
+                            </div>
+                            <a href="" class="service-btn">
+                                <span>詳細を見る ▶︎</span>
+                                <div class="service-btn-black">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="service-media-media2-right js-link" data-url="/service/contribution/">
+                            <!-- <div class="service-media-media2-black"></div> -->
+                            <h3 style="margin-left: 0;">寄稿</h3>
+                            <div class="service-media-image">
+                                <img class="fit" src="assets/image/home/service001.png">
+                            </div>
+                            <a href="" class="service-btn">
+                                <span>詳細を見る▶︎</span>
+                                <div class="service-btn-black">
+                                </div>
+                            </a>
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                <div class="inview03" style="position: relative;">
+                    <div class="article-h1">
+                        <h1>広告制作</h1>
+                        <p>Advertisement</p>
+                    </div>
+                    <div class="bg-text" style="top:0;"><img class="fit" src="assets/image/common/bg-text-ad.png"></div>
+                    <div class="service-adv-wrapper">
+                        <div id="slider2" class="inview03">
+                            <!-- <a href="./bros">bros</a> -->
+
+
+                            <div class="sp-slide">
+                                <a href="works/13301/index.html" rel='nofollow'>
+                                    <div class="image">
+                                        <a class="slide-a" href="works/13301/index.html" rel='nofollow'>
+                                            <img class="fit" src="assets/image/home/service001.png">
+                                        </a>
+                                    </div>
+                                    <div class="detail">
+                                        <div class="detail-left">
+                                            <div class="tag">
+                                                <img src="assets/image/about/about-title.png" class="fit" alt="">
+                                            </div>
+                                            <div class="date">
+                                                <span>00. 00</span>
+                                            </div>
+
+                                        </div>
+                                        <div class="title"><a href="works/13301/index.html" rel='nofollow'>シールダー０</a></div>
+
+                                    </div>
+                                </a>
+                            </div>
+
+
+                            <div class="sp-slide">
+                                <a href="works/13118/index.html" rel='nofollow'>
+                                    <div class="image">
+                                        <a class="slide-a" href="works/13118/index.html" rel='nofollow'>
+                                            <img class="fit" src="assets/image/home/service001.png">
+                                        </a>
+                                    </div>
+                                    <div class="detail">
+                                        <div class="detail-left">
+                                            <div class="tag">
+                                                <img src="assets/image/about/about-title.png" class="fit" alt="">
+                                            </div>
+                                            <div class="date">
+                                                <span>11. 11</span>
+                                            </div>
+
+                                        </div>
+                                        <div class="title"><a href="works/13118/index.html" rel='nofollow'>シールダー１</a></div>
+
+                                    </div>
+                                </a>
+                            </div>
+
+
+                            <div class="sp-slide">
+                                <a href="works/12976/index.html" rel='nofollow'>
+                                    <div class="image">
+                                        <a class="slide-a" href="works/12976/index.html" rel='nofollow'>
+                                            <img class="fit" src="assets/image/home/service001.png">
+                                        </a>
+                                    </div>
+                                    <div class="detail">
+                                        <div class="detail-left">
+                                            <div class="tag">
+                                                <img src="assets/image/about/about-title.png" class="fit" alt="">
+                                            </div>
+                                            <div class="date">
+                                                <span>22. 22</span>
+                                            </div>
+
+                                        </div>
+                                        <div class="title"><a href="works/12976/index.html" rel='nofollow'>シールダー２</a></div>
+
+                                    </div>
+                                </a>
+                            </div>
+
+
+                            <div class="sp-slide">
+                                <a href="works/12986/index.html" rel='nofollow'>
+                                    <div class="image">
+                                        <a class="slide-a" href="works/12986/index.html" rel='nofollow'>
+                                            <img class="fit" src="assets/image/home/service001.png">
+                                        </a>
+                                    </div>
+                                    <div class="detail">
+                                        <div class="detail-left">
+                                            <div class="tag">
+                                                <img src="assets/image/about/about-title.png" class="fit" alt="">
+                                            </div>
+                                            <div class="date">
+                                                <span>33. 33</span>
+                                            </div>
+
+                                        </div>
+                                        <div class="title"><a href="works/12986/index.html" rel='nofollow'>シールダー３</a></div>
+
+                                    </div>
+                                </a>
+                            </div>
+
+
+                            <div class="sp-slide">
+                                <a href="works/13134/index.html" rel='nofollow'>
+                                    <div class="image">
+                                        <a class="slide-a" href="works/13134/index.html" rel='nofollow'>
+                                            <img class="fit" src="assets/image/home/service001.png">
+                                        </a>
+                                    </div>
+                                    <div class="detail">
+                                        <div class="detail-left">
+                                            <div class="tag">
+                                                <img src="assets/image/about/about-title.png" class="fit" alt="">
+                                            </div>
+                                            <div class="date">
+                                                <span>44. 44</span>
+                                            </div>
+
+                                        </div>
+                                        <div class="title"><a href="works/13134/index.html" rel='nofollow'>シールダー４</a></div>
+
+                                    </div>
+                                </a>
+                            </div>
+
+                        </div>
+                        <div class="service-textarea">
+                            <p>世界に爪痕を残す、最高の仕事を</p>
+                            <div class="service-textarea-btn">
+                                <a href="service/ad.html" class="service-btn">
+                                    <span>詳細を見る ▶︎</span>
+                                    <div class="service-btn-black">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="inview03" style="position: relative;">
+                    <div class="article-h1">
+                        <h1>地獄のミサワ</h1>
+                        <p>Misawa</p>
+                    </div>
+                    <div class="bg-text" style="top:0;"><img class="fit" src="assets/image/common/bg-text-misawa.png"></div>
+                    <div class="service-misawa-wrapper">
+
+                        <div id="slider3" class="inview03">
+
+
+                            <div class="sp-slide">
+                                <a href="works/13184/index.html" rel='nofollow'>
+                                    <div class="image">
+                                        <a class="slide-a" href="works/13184/index.html" rel='nofollow'>
+                                            <img class="fit" src="assets/uploads/1565001014cvg87-640x336.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="detail">
+                                        <div class="detail-left">
+                                            <div class="tag">
+                                                <img src="assets/image/common/tag-misawa.png" class="fit" alt="">
+                                            </div>
+                                            <div class="date">
+                                                <span>07. 13</span>
+                                            </div>
+
+                                        </div>
+                                        <div class="title"><a href="works/13184/index.html" rel='nofollow'>ホットランド/「築地のミサワ（築地銀だこ×地獄のミサワ）...</a></div>
+
+                                    </div>
+                                </a>
+                            </div>
+
+
+                            <div class="sp-slide">
+                                <a href="works/13193/index.html" rel='nofollow'>
+                                    <div class="image">
+                                        <a class="slide-a" href="works/13193/index.html" rel='nofollow'>
+                                            <img class="fit" src="assets/uploads/20171010_stamp-420x336.png">
+                                        </a>
+                                    </div>
+                                    <div class="detail">
+                                        <div class="detail-left">
+                                            <div class="tag">
+                                                <img src="assets/image/common/tag-misawa.png" class="fit" alt="">
+                                            </div>
+                                            <div class="date">
+                                                <span>10. 10</span>
+                                            </div>
+
+                                        </div>
+                                        <div class="title"><a href="works/13193/index.html" rel='nofollow'>XFLAG/「モンスト×地獄のミサワ」LINEスタンプ・...</a></div>
+
+                                    </div>
+                                </a>
+                            </div>
+
+
+                            <div class="sp-slide">
+                                <a href="works/13338/index.html" rel='nofollow'>
+                                    <div class="image">
+                                        <a class="slide-a" href="works/13338/index.html" rel='nofollow'>
+                                            <img class="fit" src="assets/uploads/C-ZljrGUIAExqCS-597x336.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="detail">
+                                        <div class="detail-left">
+                                            <div class="tag">
+                                                <img src="assets/image/common/tag-misawa.png" class="fit" alt="">
+                                            </div>
+                                            <div class="date">
+                                                <span>04. 24</span>
+                                            </div>
+
+                                        </div>
+                                        <div class="title"><a href="works/13338/index.html" rel='nofollow'>大塚食品/「MATCH × 地獄のミサワ CLASS M...</a></div>
+
+                                    </div>
+                                </a>
+                            </div>
+
+
+                            <div class="sp-slide">
+                                <a href="works/13197/index.html" rel='nofollow'>
+                                    <div class="image">
+                                        <a class="slide-a" href="works/13197/index.html" rel='nofollow'>
+                                            <img class="fit" src="assets/uploads/naomi-640x336-1.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="detail">
+                                        <div class="detail-left">
+                                            <div class="tag">
+                                                <img src="assets/image/common/tag-misawa.png" class="fit" alt="">
+                                            </div>
+                                            <div class="date">
+                                                <span>02. 04</span>
+                                            </div>
+
+                                        </div>
+                                        <div class="title"><a href="works/13197/index.html" rel='nofollow'>吉本興業/「むっちり動け！渡辺直美（地獄のミサワ）」LI...</a></div>
+
+                                    </div>
+                                </a>
+                            </div>
+
+                        </div>
+                        <div class="service-textarea">
+                            <p>人気漫画家「地獄のミサワ」のマネジメントを担当しているのがバーグハンバーグバーグです。地獄のミサワを利用した広告に関しましてもお気軽にご相談ください。</p>
+                            <div class="service-textarea-btn">
+                                <a href="service/misawa.html" class="service-btn">
+                                    <span>詳細を見る ▶︎</span>
+                                    <div class="service-btn-black">
+                                    </div>
+                                </a>
+                            </div>
+                        </div> -->
+
+        </div>
+    </div>
+
+
+    </article>
+    </div>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.css" media="screen" />
+    <script type="text/javascript" src="assets/js/slick.min-.js"></script>
+    <script>
+        $('#slider1').slick({
+            autoplay: true,
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            arrows: true,
+            prevArrow: '<button type="button" class="slick-prev"></button>',
+            nextArrow: '<button type="button" class="slick-next"></button>',
+            responsive: [{
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerMode: true,
+                },
+                arrows: false,
+            }],
+        });
+        $('#slider2').slick({
+            autoplay: true,
+
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            arrows: true,
+            prevArrow: '<button type="button" class="slick-prev"></button>',
+            nextArrow: '<button type="button" class="slick-next"></button>',
+            responsive: [{
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerMode: true,
+                    arrows: false,
+                },
+            }],
+        });
+        $('#slider3').slick({
+            autoplay: true,
+
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            arrows: true,
+            prevArrow: '<button type="button" class="slick-prev"></button>',
+            nextArrow: '<button type="button" class="slick-next"></button>',
+            responsive: [{
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerMode: true,
+                    arrows: false,
+                },
+            }],
+        });
+
+        TransitionToUserPage();
+
+        function TransitionToUserPage() {
+            $('.js-link').on('click', function(e) {
+                // 伝播をストップ
+                e.stopPropagation();
+                e.preventDefault();
+
+                // URLを取得して飛ばす
+                // window.open($(this).attr('data-url')); 別タブで開く場合
+                location.href = $(this).attr('data-url');
+            });
+        }
+    </script>
+
+
+    <footer>
+        <div class="inner">
+            <div class="logo">
+                <div class="logo-image">
+                    <img class="fit" src="assets/image/header/logo-title002.svg">
+                </div>
+            </div>
+            <div class="footer-right">
+                <ul class="menu">
+                    <li><a href="index.html">ホーム</a></li>
+                    <li><a href="service.html">サービス</a></li>
+                    <!-- <li><a href="works.html">実績</a></li> -->
+                    <li><a href="company.html">会社概要</a></li>
+                    <!-- <li><a href="member.html">メンバー</a></li> -->
+                    <!-- <li><a href="blog.html">ブログ</a></li> -->
+                    <li><a href="recruit.html">採用</a></li>
+                    <li><a href="contact.html">お問い合わせ</a></li>
+                </ul>
+                <div class="footer-bottom">
+                    <a href="policy.html" class="policy">
+    プライバシーポリシー
+  </a>
+                    <div class="copy">
+                        &copy; 2021 カスタムライフ All Rights Reserved.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--     <div class="">
+<a class="three-d-trigger" href="#">3D</a>
+</div>
+-->
+    </footer>
+
+
+    </div>
+
+    <!-- <div class="modal-window" id="policy-view">
+    <a href="#" class="close"></a>
+    <div class="modal-inner">
+
+        <h4>プライバシーポリシー</h4>
+        <p>オシッコと個人情報は漏らさないように努力します</p>
+
+    </div>
+</div> -->
+
+
+    <div class="overlay"></div>
+
+    <script type='text/javascript' src='assets/plugins/contact-form-7/includes/js/jquery.form.min.js'></script>
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var _wpcf7 = {
+            "loaderUrl": "http:\/\/bhb.co.jp\/assets\/plugins\/contact-form-7\/images\/ajax-loader.gif",
+            "recaptcha": {
+                "messages": {
+                    "empty": "\u3042\u306a\u305f\u304c\u30ed\u30dc\u30c3\u30c8\u3067\u306f\u306a\u3044\u3053\u3068\u3092\u8a3c\u660e\u3057\u3066\u304f\u3060\u3055\u3044\u3002"
+                }
+            },
+            "sending": "\u9001\u4fe1\u4e2d ...",
+            "cached": "1"
+        };
+        /* ]]> */
+    </script>
+    <script type='text/javascript' src='assets/plugins/contact-form-7/includes/js/scripts.js'></script>
+    <script type='text/javascript' src='wp/wp-includes/js/wp-embed.min.js'></script>
+
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-35312027-1']);
+        _gaq.push(['_setDomainName', 'bhb.co.jp']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+
+            TransitionToUserPage();
+
+            function TransitionToUserPage() {
+                $('.js-link').on('click', function(e) {
+                    // e.stopPropagation();
+                    // e.preventDefault();
+
+                    // window.open($(this).attr('data-url')); 別タブで開く場合
+                    location.href = $(this).attr('data-url');
+                });
+            }
+        })();
+    </script>
+</body>
+
+</html>

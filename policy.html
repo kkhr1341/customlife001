@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8, maximum-scale=0.8, user-scalable=0.8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>株式会社カスタムライフ</title>
+    <!-- KISO Meta -->
+    <meta name="description" content="サイトデスクリプション">
+    <meta name="keywords" content="WEB制作,コンテンツ制作,面白,広告,メディア">
+    <!-- KISO Meta END-->
+    <link rel="icon" sizes="16x16 32x32 48x48 128x128 256x256" href="assets/image/common/favicon.ico">
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style-1.css">
+    <link rel="stylesheet" href="assets/css/article-1.css">
+    <!-- CSS END -->
+    <!-- Meta -->
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ja_JP">
+    <meta property="og:url" content="https://bhb.co.jp">
+    <meta property="og:title" content="株式会社バーグハンバーグバーグ">
+    <meta property="og:image" content="---------assets/image/common/ogp.png?2">
+    <meta property="og:description" content="バーグハンバーグバーグはTwitterを中心として話題になる「おもしろい広告コンテンツ」の得意な会社です。昨今ユーザーに嫌われがちな広告ですが、我々が手がけることで「ユーザーに好かれる広告」を実現します。">
+    <!-- Meta END     -->
+    <!-- Twitter meta -->
+    <meta name="twitter:url" content="https://bhb.co.jp">
+    <meta name="twitter:title" content="株式会社バーグハンバーグバーグ">
+    <meta name="twitter:image" content="---------assets/image/common/ogp.png?2">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@">
+    <meta name="twitter:creator" content="@">
+    <meta name="twitter:domain" content="omocoro.jp">
+    <!-- Twitter end -->
+    <!-- JS  -->
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+    <script src='https://www.youtube.com/iframe_api'></script>
+    <script src='https://jsoon.digitiminimi.com/js/widgetoon.js'></script>
+    <script src='assets/js/script-2.js'></script>
+    <script src="assets/js/lazysizes.min.js"></script>
+    <!-- JS END -->
+
+</head>
+
+
+<body>
+
+    <div id="fb-root"></div>
+
+    <div class="wrapper">
+        <!-- MENU CONTENTS______START -->
+        <header>
+            <div class="inner">
+                <div class="header-logo">
+                    <a href="index.html">
+                        <img class="fit" src="assets/image/header/logo-title001.svg">
+                    </a>
+                </div>
+                <div class="header-hamburger">
+                    <img class="fit" src="assets/image/header/hamburger.png">
+                </div>
+                <ul class="menu">
+                    <li class="home">
+                        <div><a href="index.html"><span><img class="fit" src="assets/image/header/home.png"></span>ホーム</a></div>
+                    </li>
+                    <li class="service">
+                        <div><a href="service.html"><span><img class="fit" src="assets/image/header/service.png"></span>サービス</a></div>
+                    </li>
+                    <!-- <li class="works   ">
+      <div><a href="works.html"><span><img class="fit" src="assets/image/header/works.png"></span>実績</a></div>
+  </li> -->
+                    <li class="company">
+                        <div><a href="company.html"><span><img class="fit" src="assets/image/header/company.png"></span>会社概要</a></div>
+                    </li>
+                    <!-- <li class="member ">
+      <div><a href="member.html"><span><img class="fit" src="assets/image/header/member.png"></span>メンバー</a></div>
+  </li> -->
+                    <!-- <li class="blog    ">
+      <div><a href="blog.html"><span><img class="fit" src="assets/image/header/blog.png"></span>ブログ</a></div>
+  </li> -->
+                    <li class="recruit ">
+                        <div><a href="recruit.html"><span><img class="fit" src="assets/image/header/recruit.png"></span>採用</a></div>
+                    </li>
+                    <li class="contact active">
+                        <div><a href="contact.html"><span><img class="fit" src="assets/image/header/contact.png"></span>お問い合わせ</a></div>
+                    </li>
+                    <li>
+                        <div id="share-pc"><img class="fit" src="assets/image/common/share-icon.png"></div>
+                    </li>
+                </ul>
+                <div class="header-share">
+                    <ul class="sns-buttons">
+                        <li class="twitter">
+                            <a href="" class="sns-button" target="_blank">
+                                <span><img src="assets/image/common/logo_twitter_white.png" class="fit" alt=""></span> ツイート
+                            </a>
+                        </li>
+                        <li class="facebook">
+                            <a href="" class="sns-button" target="_blank">
+                                <span><img src="assets/image/common/logo_facebook_white.png" class="fit" alt=""></span> シェア
+                            </a>
+                        </li>
+                        <li class="line">
+                            <a href="" class="sns-button" target="_blank">
+                                <span><img src="assets/image/common/logo_line_white.png" class="fit" alt=""></span> LINEで送る
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <ul class="menu-sp">
+                <li class="home">
+                    <div class="js-link" data-url="/"><a>ホーム</a><span><img class="fit" src="assets/image/header/home-sp.png"></span></div>
+                </li>
+                <li class="service ">
+                    <div class="js-link" data-url="/service"><a>サービス</a><span><img class="fit" src="assets/image/header/service-sp.png"></span></div>
+                </li>
+                <!-- <li class="works   ">
+              <div class="js-link" data-url="/works"><a>実績</a><span><img class="fit" src="assets/image/header/works-sp.png"></span></div>
+          </li> -->
+                <li class="company ">
+                    <div class="js-link" data-url="/company"><a>会社概要</a><span><img class="fit" src="assets/image/header/company-sp.png"></span></div>
+                </li>
+                <!-- <li class="member ">
+              <div class="js-link" data-url="/member"><a>メンバー</a><span><img class="fit" src="assets/image/header/member-sp.png"></span></div>
+          </li> -->
+                <!-- <li class="blog    ">
+              <div class="js-link" data-url="/blog"><a>ブログ</a><span><img class="fit" src="assets/image/header/blog-sp.png"></span></div>
+          </li> -->
+                <li class="recruit ">
+                    <div class="js-link" data-url="/recruit"><a>採用</a><span><img class="fit" src="assets/image/header/recruit-sp.png"></span></div>
+                </li>
+                <li class="contact active">
+                    <div class="js-link" data-url="/contact"><a>お問い合わせ</a><span><img class="fit" src="assets/image/header/contact-sp.png"></span></div>
+                </li>
+                <div class="header-sp-share">
+                    <a href="" class="sns-button" target="_blank">
+                        <img src="assets/image/common/logo_twitter.png" class="fit" alt="">
+                    </a>
+                    <a href="" class="sns-button" target="_blank">
+                        <img src="assets/image/common/logo_facebook.png" class="fit" alt="">
+                    </a>
+
+                </div>
+
+            </ul>
+
+        </header>
+
+        <link rel="stylesheet" type="text/css" href="assets/css/jquery.nstSlider.css">
+
+        <div class="contents">
+            <article class="privacy">
+                <div class="article-h1">
+                    <h1>プライバシーポリシー</h1>
+                    <p>privacy policy</p>
+                </div>
+                <div class="bg-header">
+                    <img class="fit" src="assets/image/common/bg-header-recruit.png">
+                </div>
+                <!-- <div class="bg-text"><img class="fit" src="/assets/image/common/bg-text-contact.png"></div> -->
+
+                <section class="box">
+
+                    <div class="jyou">
+                        <p>
+                            株式会社カスタムライフ（以下「当社」といいます。）は、当社が提供する各種サービス（当社が運営する各種メディアを含み、以下「本サービス」といいます。）における、本サービスを利用する皆様（以下「ユーザー」といいます。）の個人情報の取扱いについて、以下のとおりプライバシーポリシーを定め、その保護及びぬるま湯のがぶ飲みに万全を尽くします。
+                        </p>
+                    </div>
+
+                    <div class="jyou">
+                        <h3>第１条 個人情報の定義</h3>
+                        <p>
+                            個人情報とは、生存する個人に関する情報であって、氏名、生年月日、電話番号、住所、電子メールアドレス、組織名、所在地、ソーシャル・ネットワークサービスアカウントなど、特定の個人を識別することができる情報（当該情報だけでは特定の個人を識別できなくても、他の情報と容易に照合することができ、それにより特定の個人を識別できるものを含みます。）又は個人情報の保護に関する法律（以下「個人情報保護法」といいます。）第２条第２項に定める個人識別符号が含まれる情報をいいます。
+                        </p>
+                    </div>
+
+                    <div class="jyou">
+                        <h3>第２条 個人情報の取得</h3>
+                        <p>
+                            １．当社は、当社が本サービスを提供するために必要な範囲で、ユーザーから提供して頂く方法、ユーザーが本サービスの利用において他の事業者が提供するサービスと連携を許可することにより当該サービスから提供して頂く方法又はユーザーが本サービスを利用するにあたって当社が収集する方法によって、個人情報を取得します。当社は、適正に個人情報を取得し、偽り及びその他不正な手段等により個人情報を取得することはありません。また、ユーザーは、偽り及びその他不正な手段等により取得した第三者の個人情報を当社に提供しないものとします。
+                        </p>
+                        <p>
+                            ２．当社は、個人情報保護法その他の法令で認められる場合を除き、ユーザー本人の同意を得ずに個人情報保護法第２条第３項により定義された要配慮個人情報を取得しません。
+                        </p>
+                    </div>
+
+                    <div class="jyou">
+                        <h3>第３条 個人情報の利用目的</h3>
+                        <p>
+                            １．当社は、取得した個人情報を、以下の利用目的で、又は当該利用目的の達成に必要な範囲で、利用をします。万一、利用目的の変更が必要となった場合には、その旨をユーザーに通知又は公表します。
+                        </p>
+                        <ul>
+                            <li>（１）本サービスに関する登録の受付、本人確認等、本サービスの提供、維持、保護及び改善のため</li>
+                            <li>（２）本サービスの利用状況（本サービスを通じて当社以外の事業者の提供に係るサービスを利用する場合も含みます。）の確認のため</li>
+                            <li>（３）本サービスの内容に関する情報、アップデート情報、イベントやキャンペーン情報、規約等の変更情報等の告知のため</li>
+                            <li>（４）本サービスの利用に係る対価の請求のため</li>
+                            <li>（５）本サービスで商品等を注文されたお客様に商品等を発送し又は発送状況の確認のため</li>
+                            <li>（６）企画、キャンペーン等に当選されたお客様に商品等を発送し又は発送状況を確認するため</li>
+                            <li>（７）本サービスに関するご案内、お問い合せ等への対応のため</li>
+                            <li>（８）本サービスに関するアンケートを実施する対象者の抽出のため</li>
+                            <li>（９）本サービスに関する当社の規約、その他諸規程に違反する行為への対応のため</li>
+                            <li>（10）本サービスの改善又は拡充を図るため</li>
+                            <li>（11）本サービスの利用に関する統計データを作成するため</li>
+                            <li>（11）新規の本サービスに関する企画、立案又は実施のため</li>
+                            <li>（12）当社又は第三者の広告の配信又は表示のため</li>
+                            <li>（13）その他マーケティングに利用するため</li>
+                        </ul>
+                        <p>
+                            ２．当社は、前項の利用目的の他、個別の本サービス毎に固有の利用目的を定めることがあります。当社は、当該個別の本サービスの利用目的について、これをできる限り特定の上、当該個別の本サービスに関するウェブサイト又はサービス画面において予め公表します。
+                        </p>
+                    </div>
+
+                    <div class="jyou">
+                        <h3>第４条 取得した個人情報の第三者提供、預託及び共同利用</h3>
+                        <p>
+                            １．当社は、ユーザーから取得した個人情報を、個人情報保護法その他の法令で認められる場合を除き、ユーザー本人の同意を得ずに第三者に提供することはありません。
+                        </p>
+                        <p>
+                            ２．当社は、利用目的の達成に必要な範囲内において、個人情報の取扱いの全部又は一部を、業務委託先に預託することがあります。その際、業務委託先としての適格性を十分審査するとともに、契約にあたって守秘義務に関する事項等を確認し、情報が適正に管理される体制作りを行います。
+                        </p>
+                        <p>
+                            ３．今後、ユーザーに本サービスを提供するにあたり、当社と提携して事業を行う者（以下「提携事業者」といいます。）が必要な場合には、個人情報を提携事業者と共同利用することがあります。この場合に当社は、利用目的、提携事業者の名称、情報の種類、管理者の名称について、ユーザーに予め公表した上で共同利用することとします。
+                        </p>
+                    </div>
+
+
+                    <div class="jyou">
+                        <h3>第５条 個人情報の開示、訂正及び利用停止等</h3>
+                        <p>
+                            １．当社は、ユーザーから、個人情報保護法の定めに基づきユーザー自身の個人情報の開示を求められた場合には、個人情報保護法により当社が開示の義務がある場合に限り、ユーザー自身からの請求であることを確認の上で、遅滞なく個人情報の開示を行います。なお、個人情報の開示にあたっては、当社が別途定める手続きに従って開示手数料を請求する場合があります。
+                        </p>
+                        <p>
+                            ２．当社は、ユーザーから、（１）個人情報が真実でないという理由によって個人情報保護法の定めに基づきその内容の訂正を求められた場合、及び（２）予め公表された利用目的の範囲を超えて取り扱われているという理由又は偽りその他不正の手段により収集されたものであるという理由によって個人情報保護法の定めに基づきその利用の停止を求められた場合には、ユーザー自身からの請求であることを確認の上で、遅滞なく必要な調査を行い、その結果に基づき、個人情報の内容の訂正又は利用停止を行い、ユーザーに対してその旨を通知します。
+                        </p>
+                        <p>
+                            ３．当社は、ユーザーから、ユーザー自身の個人情報について消去を求められた場合には、当社が当該請求に応じる必要があると判断した場合に限り、ユーザー自身からの請求であることを確認の上で、遅滞なく個人情報の消去を行い、ユーザーに対してその旨を通知します。
+                        </p>
+                        <p>
+                            ４．前各項の請求に際しては、以下の内容その他当社所定の情報・資料を送付してください。
+                        </p>
+                        <ul>
+                            <li>（１）氏名・住所・電話番号・メールアドレス</li>
+                            <li>（２）請求内容・経緯・根拠資料</li>
+                            <li>（３）本人確認資料</li>
+                        </ul>
+                        <p>
+                            ５．以下の各号のいずれかに該当する場合は、第１項及び第２項の請求に応じることができない場合があります。
+                        </p>
+                        <ul>
+                            <li>（１）ユーザー又は第三者の生命、身体、財産その他の権利利益を害するおそれがある場合</li>
+                            <li>（２）当社の業務の適正な実施に著しい支障を及ぼすおそれがある場合</li>
+                            <li>（３）法令に違反することとなる場合</li>
+                            <li>（４）ユーザー自身からの請求であることが確認できない場合</li>
+                            <li>（５）正当な理由なく同内容の請求が繰り返される場合</li>
+                        </ul>
+                    </div>
+
+                    <div class="jyou">
+                        <h3>第６条 リンク</h3>
+                        <p>
+                            当社のウェブサイトからリンクされている当社以外の事業者が、そのウェブサイト上で個人情報の取得を行う場合がありますが、その際には本プライバシーポリシーは適用されることはなく、当社は当社以外の事業者が個人情報を取り扱うことに関し、何らの義務や責任を負いません。
+                        </p>
+                    </div>
+
+                    <div class="jyou">
+                        <h3>第７条 Cookie 及び行動ターゲティング広告</h3>
+                        <p>
+                            当社は、本サービスの改善若しくは拡充を図るため、本サービスの利用に関する統計データを作成するため、新規の本サービスに関する企画、立案若しくは実施のため、当社若しくは第三者の広告の配信若しくは表示のため、又はその他マーケティングに利用するため、Cookieを使用して、特定の個人を識別することができない属性情報、端末情報、本サービス内におけるユーザーの行動履歴（アクセスしたURL、コンテンツ、アクセス順、滞在時間等）を取得することがあります。また、本サービスでは、当社又は第三者の広告を適切に配信するため、行動ターゲティング広告のサービスを使用しています。行動ターゲティング広告の表示を希望しないユーザーは、以下のオプトアウトページにアクセスし、手順に従ってください。
+                        </p>
+                        <ul>
+                            <li>・アマゾンジャパン合同会社（<a href="https://www.amazon.co.jp/adprefs" target="_blank">https://www.amazon.co.jp/adprefs</a>）</li>
+                            <li>・グーグル合同会社（<a href="https://policies.google.com/technologies/ads?hl=ja" target="_blank">https://policies.google.com/technologies/ads?hl=ja</a>）</li>
+                        </ul>
+                        </p>
+                    </div>
+
+                    <div class="jyou">
+                        <h3>第８条 問い合わせ窓口</h3>
+                        <p>
+                            個人情報の取り扱いに関するお問い合わせ及び第６条に基づくご請求は、株式会社カスタムライフ（ info@・・・・・・・・ ）宛にメールにてご連絡ください。なお、当社は、お問い合わせに対する回答を原則としてメールのみで行います。また、当社は、個人情報保護法その他の法令に定める場合を除き、お問い合わせに対して回答する義務を負うものではありません。
+                        </p>
+                    </div>
+
+                    <div class="jyou">
+                        <h3>第９条 改定</h3>
+                        <p>
+                            当社は、ユーザーの同意を得て又は民法第548条の4の規定により、本プライバシーポリシーを改定することがあります。本プライバシーポリシーを改定する場合は、改定の効力発生日及び改定内容を速やかに当社のウェブサイト上で告知します。当該告知及び効力発生日後、ユーザーが本サービスを利用した場合には、ユーザーは、本プライバシーポリシーの改定に同意したものとみなします。ただし、法令上ユーザーの同意が必要となるような内容の改定を行うときは、別途当社が定める方法により、お客様の同意を取得します。
+                        </p>
+                    </div>
+
+                    <div class="kaitei">
+                        以上<br>
+                        <br> ２０２２年１月１日 制定<br> ２０２２年１月１日 改定<br> ２０２２年１月１日 改定
+                    </div>
+                </section>
+            </article>
+
+
+        </div>
+
+
+
+        <script type="text/javascript" src="assets/js/jquery.nstSlider.min.js"></script>
+        <script type='text/javascript' src='assets/js/contact.js'></script>
+
+
+        <footer>
+            <div class="inner">
+                <div class="logo">
+                    <div class="logo-image">
+                        <img class="fit" src="assets/image/header/logo-title002.svg">
+                    </div>
+                </div>
+                <div class="footer-right">
+                    <ul class="menu">
+                        <li><a href="index.html">ホーム</a></li>
+                        <li><a href="service.html">サービス</a></li>
+                        <!-- <li><a href="works.html">実績</a></li> -->
+                        <li><a href="company.html">会社概要</a></li>
+                        <!-- <li><a href="member.html">メンバー</a></li> -->
+                        <!-- <li><a href="blog.html">ブログ</a></li> -->
+                        <li><a href="recruit.html">採用</a></li>
+                        <li><a href="contact.html">お問い合わせ</a></li>
+                    </ul>
+                    <div class="footer-bottom">
+                        <a href="policy.html" class="policy">
+プライバシーポリシー
+</a>
+                        <div class="copy">
+                            &copy; 2021 カスタムライフ All Rights Reserved.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!--     <div class="">
+<a class="three-d-trigger" href="#">3D</a>
+</div>
+-->
+        </footer>
+
+    </div>
+
+    <!-- <div class="modal-window" id="policy-view">
+    <a href="#" class="close"></a>
+    <div class="modal-inner">
+
+        <h4>プライバシーポリシー</h4>
+        <p>オシッコと個人情報は漏らさないように努力します</p>
+
+    </div>
+</div> -->
+    <div class="modal-window" id="contact-view">
+        <a href="policy.html#" class="close">
+            <div class="close-img">
+                <img src="assets/image/common/close.png" class="fit" alt="">
+            </div>
+        </a>
+        <div class="modal-inner">
+        </div>
+    </div>
+
+
+    <div class="overlay"></div>
+
+    <script type='text/javascript' src='assets/plugins/contact-form-7/includes/js/jquery.form.min.js'></script>
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var _wpcf7 = {
+            "loaderUrl": "http:\/\/bhb.co.jp\/assets\/plugins\/contact-form-7\/images\/ajax-loader.gif",
+            "recaptcha": {
+                "messages": {
+                    "empty": "\u3042\u306a\u305f\u304c\u30ed\u30dc\u30c3\u30c8\u3067\u306f\u306a\u3044\u3053\u3068\u3092\u8a3c\u660e\u3057\u3066\u304f\u3060\u3055\u3044\u3002"
+                }
+            },
+            "sending": "\u9001\u4fe1\u4e2d ...",
+            "cached": "1"
+        };
+        /* ]]> */
+    </script>
+    <script type='text/javascript' src='assets/plugins/contact-form-7/includes/js/scripts.js'></script>
+    <script type='text/javascript' src='wp/wp-includes/js/wp-embed.min.js'></script>
+
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-35312027-1']);
+        _gaq.push(['_setDomainName', 'bhb.co.jp']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+
+            TransitionToUserPage();
+
+            function TransitionToUserPage() {
+                $('.js-link').on('click', function(e) {
+                    // e.stopPropagation();
+                    // e.preventDefault();
+
+                    // window.open($(this).attr('data-url')); 別タブで開く場合
+                    location.href = $(this).attr('data-url');
+                });
+            }
+        })();
+    </script>
+</body>
+
+</html>
+<!-- ZenCache file path: /cache/zencache/cache/http/bhb-co-jp/policy.v/others.html -->
+<!-- ZenCache file built for (others http://bhb.co.jp/policy/) in 0.25051 seconds, on: Feb 24th, 2021 @ 12:35 am UTC. -->
+<!-- This ZenCache file will auto-expire (and be rebuilt) on: Feb 25th, 2021 @ 12:35 am UTC (based on your configured expiration time). -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- ZenCache fully functional :-) Cache file served for (others http://bhb.co.jp/policy) in 0.00063 seconds, on: Feb 24th, 2021 @ 1:50 am UTC. -->

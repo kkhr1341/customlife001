@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8, maximum-scale=0.8, user-scalable=0.8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>株式会社カスタムライフ</title>
+    <!-- KISO Meta -->
+    <meta name="description" content="サイトデスクリプション">
+    <meta name="keywords" content="WEB制作,コンテンツ制作,面白,広告,メディア">
+    <!-- KISO Meta END-->
+    <link rel="icon" sizes="16x16 32x32 48x48 128x128 256x256" href="assets/image/common/favicon.ico">
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style-1.css">
+    <link rel="stylesheet" href="assets/css/article-1.css">
+    <!-- CSS END -->
+    <!-- Meta -->
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ja_JP">
+    <meta property="og:url" content="https://bhb.co.jp">
+    <meta property="og:title" content="株式会社バーグハンバーグバーグ">
+    <meta property="og:image" content="---------assets/image/common/ogp.png?2">
+    <meta property="og:description" content="バーグハンバーグバーグはTwitterを中心として話題になる「おもしろい広告コンテンツ」の得意な会社です。昨今ユーザーに嫌われがちな広告ですが、我々が手がけることで「ユーザーに好かれる広告」を実現します。">
+    <!-- Meta END     -->
+    <!-- Twitter meta -->
+    <meta name="twitter:url" content="https://bhb.co.jp">
+    <meta name="twitter:title" content="株式会社バーグハンバーグバーグ">
+    <meta name="twitter:image" content="---------assets/image/common/ogp.png?2">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@">
+    <meta name="twitter:creator" content="@">
+    <meta name="twitter:domain" content="omocoro.jp">
+    <!-- Twitter end -->
+    <!-- JS  -->
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+    <script src='https://www.youtube.com/iframe_api'></script>
+    <script src='https://jsoon.digitiminimi.com/js/widgetoon.js'></script>
+    <script src='assets/js/script-2.js'></script>
+    <script src="assets/js/lazysizes.min.js"></script>
+    <!-- JS END -->
+
+</head>
+
+
+<body>
+
+    <div id="fb-root"></div>
+
+    <div class="wrapper">
+        <!-- MENU CONTENTS______START -->
+        <header>
+            <div class="inner">
+                <div class="header-logo">
+                    <a href="index.html">
+                        <img class="fit" src="assets/image/header/logo-title001.svg">
+                    </a>
+                </div>
+                <div class="header-hamburger">
+                    <img class="fit" src="assets/image/header/hamburger.png">
+                </div>
+                <ul class="menu">
+                    <li class="home">
+                        <div><a href="index.html"><span><img class="fit" src="assets/image/header/home.png"></span>ホーム</a></div>
+                    </li>
+                    <li class="service">
+                        <div><a href="service.html"><span><img class="fit" src="assets/image/header/service.png"></span>サービス</a></div>
+                    </li>
+                    <!-- <li class="works   ">
+          <div><a href="works.html"><span><img class="fit" src="assets/image/header/works.png"></span>実績</a></div>
+      </li> -->
+                    <li class="company">
+                        <div><a href="company.html"><span><img class="fit" src="assets/image/header/company.png"></span>会社概要</a></div>
+                    </li>
+                    <!-- <li class="member ">
+          <div><a href="member.html"><span><img class="fit" src="assets/image/header/member.png"></span>メンバー</a></div>
+      </li> -->
+                    <!-- <li class="blog    ">
+          <div><a href="blog.html"><span><img class="fit" src="assets/image/header/blog.png"></span>ブログ</a></div>
+      </li> -->
+                    <li class="recruit ">
+                        <div><a href="recruit.html"><span><img class="fit" src="assets/image/header/recruit.png"></span>採用</a></div>
+                    </li>
+                    <li class="contact active">
+                        <div><a href="contact.html"><span><img class="fit" src="assets/image/header/contact.png"></span>お問い合わせ</a></div>
+                    </li>
+                    <li>
+                        <div id="share-pc"><img class="fit" src="assets/image/common/share-icon.png"></div>
+                    </li>
+                </ul>
+                <div class="header-share">
+                    <ul class="sns-buttons">
+                        <li class="twitter">
+                            <a href="" class="sns-button" target="_blank">
+                                <span><img src="assets/image/common/logo_twitter_white.png" class="fit" alt=""></span> ツイート
+                            </a>
+                        </li>
+                        <li class="facebook">
+                            <a href="" class="sns-button" target="_blank">
+                                <span><img src="assets/image/common/logo_facebook_white.png" class="fit" alt=""></span> シェア
+                            </a>
+                        </li>
+                        <li class="line">
+                            <a href="" class="sns-button" target="_blank">
+                                <span><img src="assets/image/common/logo_line_white.png" class="fit" alt=""></span> LINEで送る
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <ul class="menu-sp">
+                <li class="home">
+                    <div class="js-link" data-url="/"><a>ホーム</a><span><img class="fit" src="assets/image/header/home-sp.png"></span></div>
+                </li>
+                <li class="service ">
+                    <div class="js-link" data-url="/service"><a>サービス</a><span><img class="fit" src="assets/image/header/service-sp.png"></span></div>
+                </li>
+                <!-- <li class="works   ">
+                  <div class="js-link" data-url="/works"><a>実績</a><span><img class="fit" src="assets/image/header/works-sp.png"></span></div>
+              </li> -->
+                <li class="company ">
+                    <div class="js-link" data-url="/company"><a>会社概要</a><span><img class="fit" src="assets/image/header/company-sp.png"></span></div>
+                </li>
+                <!-- <li class="member ">
+                  <div class="js-link" data-url="/member"><a>メンバー</a><span><img class="fit" src="assets/image/header/member-sp.png"></span></div>
+              </li> -->
+                <!-- <li class="blog    ">
+                  <div class="js-link" data-url="/blog"><a>ブログ</a><span><img class="fit" src="assets/image/header/blog-sp.png"></span></div>
+              </li> -->
+                <li class="recruit ">
+                    <div class="js-link" data-url="/recruit"><a>採用</a><span><img class="fit" src="assets/image/header/recruit-sp.png"></span></div>
+                </li>
+                <li class="contact active">
+                    <div class="js-link" data-url="/contact"><a>お問い合わせ</a><span><img class="fit" src="assets/image/header/contact-sp.png"></span></div>
+                </li>
+                <div class="header-sp-share">
+                    <a href="" class="sns-button" target="_blank">
+                        <img src="assets/image/common/logo_twitter.png" class="fit" alt="">
+                    </a>
+                    <a href="" class="sns-button" target="_blank">
+                        <img src="assets/image/common/logo_facebook.png" class="fit" alt="">
+                    </a>
+
+                </div>
+
+            </ul>
+
+        </header>
+
+        <!-- MENU CONTENTS______END -->
+
+        <link rel="stylesheet" type="text/css" href="assets/css/jquery.nstSlider.css">
+
+        <div class="contents">
+            <article class="contact">
+                <div class="article-h1">
+                    <h1 class="inview01">お問い合わせ</h1>
+                    <p class="inview02">Contact</p>
+                </div>
+                <picture class="bg-header">
+                    <source class="fit" media="(min-width: 768px)" srcset="/assets/image/common/bg-header-contact.png">
+                    <img class="fit" src="assets/image/common/bg-header-contact-sp.png" alt="">
+                </picture>
+                <div class="bg-text inview02"><img class="fit" src="assets/image/common/bg-text-contact.png"></div>
+
+                <section class="box inview03">
+                    <div class="icon-wrapper">
+                        <div class="icon">
+                            <img class="fit" src="assets/image/common/icon-mail.png">
+                        </div>
+                    </div>
+                    <div class="inner">
+
+                        <div class="detail">
+                            <div class="title">メールで問い合わせる</div>
+                            <div class="description">
+                                メールフォームからお問い合わせいただけます。依頼したい内容がお決まりの方はこちらから。
+                            </div>
+
+                        </div>
+                        <div class="button-area">
+                            <input type="submit" class="button trigger" data-target="contact-view" value="問い合わせる▶︎">
+                            <div class="button-white"></div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="box inview03" id="baitai">
+                    <div class="icon-wrapper">
+                        <div class="icon">
+                            <img class="fit" src="assets/image/common/icon-paper.png">
+                        </div>
+                    </div>
+
+                    <div class="inner">
+                        <div class="detail">
+                            <div class="title">媒体資料</div>
+                            <div class="description">
+                                カスタムライフが手がけるメディアや、制作事例をまとめた媒体資料をダウンロードいただけます。詳しいプラン内容や効果などをご確認ください。
+                            </div>
+
+                            <div class="contact-baitai">
+                                <!-- <p>
+                                    <a href="assets/pdf/omocoro_Mediaguide.pdf" target="_blank">
+            ▶︎ オモコロ媒体資料(2020年12月〜2021年3月)
+          </a>
+                                </p>
+                                <p>
+                                    <a href="assets/pdf/bros_Mediaguide.pdf" target="_blank">
+            ▶︎ オモコロブロス媒体資料(2020年12月〜2021年3月)
+          </a>
+                                </p>
+                                <p>
+                                    <a href="assets/pdf/channel_Mediaguide.pdf" target="_blank">
+            ▶︎ オモコロチャンネル媒体資料(2020年12月〜2021年3月)
+          </a>
+                                </p>
+                                <p>
+                                    <a href="assets/pdf/BHB_Mediaguide.pdf" target="_blank">
+            ▶︎ バーグハンバーグバーグ広告制作実績資料(2020年1月〜2020年3月)
+          </a>
+                                </p> -->
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+                </section>
+            </article>
+
+
+        </div>
+
+        <!-- <div class="modal-window" id="sorry-view">
+		<a href="#" class="close"></a>
+		<div class="modal-inner">
+
+			<div class="name">申し訳ございません</div>
+			<p>只今、採用については募集しておりません</p>
+
+		</div>
+	</div> -->
+
+
+
+
+
+        <script type="text/javascript" src="assets/js/jquery.nstSlider.min.js"></script>
+        <script type='text/javascript' src='assets/js/contact.js'></script>
+
+
+
+        <footer>
+            <div class="inner">
+                <div class="logo">
+                    <div class="logo-image">
+                        <img class="fit" src="assets/image/header/logo-title002.svg">
+                    </div>
+                </div>
+                <div class="footer-right">
+                    <ul class="menu">
+                        <li><a href="index.html">ホーム</a></li>
+                        <li><a href="service.html">サービス</a></li>
+                        <!-- <li><a href="works.html">実績</a></li> -->
+                        <li><a href="company.html">会社概要</a></li>
+                        <!-- <li><a href="member.html">メンバー</a></li> -->
+                        <!-- <li><a href="blog.html">ブログ</a></li> -->
+                        <li><a href="recruit.html">採用</a></li>
+                        <li><a href="contact.html">お問い合わせ</a></li>
+                    </ul>
+                    <div class="footer-bottom">
+                        <a href="policy.html" class="policy">
+プライバシーポリシー
+</a>
+                        <div class="copy">
+                            &copy; 2021 カスタムライフ All Rights Reserved.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!--     <div class="">
+<a class="three-d-trigger" href="#">3D</a>
+</div>
+-->
+        </footer>
+
+    </div>
+
+    <!-- <div class="modal-window" id="policy-view">
+    <a href="#" class="close"></a>
+    <div class="modal-inner">
+
+        <h4>プライバシーポリシー</h4>
+        <p>オシッコと個人情報は漏らさないように努力します</p>
+
+    </div>
+</div> -->
+    <div class="modal-window" id="contact-view">
+        <a href="contact.html#" class="close">
+            <div class="close-img">
+                <img src="assets/image/common/close.png" class="fit" alt="">
+            </div>
+        </a>
+        <div class="modal-inner">
+            <section class="box">
+                <div class="inner">
+                    <h2 class="title contact">お問い合わせ</h2>
+                    <p>&nbsp;</p>
+                    <div role="form" class="wpcf7" id="wpcf7-f82-p9-o1" lang="ja" dir="ltr">
+                        <div class="screen-reader-response"></div>
+                        <form action="/CONTACT/#wpcf7-f82-p9-o1" method="post" class="wpcf7-form" novalidate="novalidate">
+                            <div style="display: none;">
+                                <input type="hidden" name="_wpcf7" value="82" />
+                                <input type="hidden" name="_wpcf7_version" value="4.5.1" />
+                                <input type="hidden" name="_wpcf7_locale" value="ja" />
+                                <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f82-p9-o1" />
+                                <input type="hidden" name="_wpnonce" value="5e8b7c78ce" />
+                            </div>
+                            <dl>
+                                <dt>お名前</dt>
+                                <dd><span class="wpcf7-form-control-wrap your_name"><input type="text" name="your_name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required input" id="cstm" aria-required="true" aria-invalid="false" /></span></dd>
+                                <dt>会社名</dt>
+                                <dd><span class="wpcf7-form-control-wrap company"><input type="text" name="company" value="" size="40" class="wpcf7-form-control wpcf7-text input" id="cstm" aria-invalid="false" /></span></dd>
+                                <dt>メールアドレス</dt>
+                                <dd><span class="wpcf7-form-control-wrap email"><input type="text" name="email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required input" id="cstm" aria-required="true" aria-invalid="false" /></span></dd>
+                                <dt>ご用件</dt>
+                                <dd><span class="wpcf7-form-control-wrap requirement"><span class="wpcf7-form-control wpcf7-checkbox wpcf7-validates-as-required checkbox"><span class="wpcf7-list-item first"><label><input type="checkbox" name="requirement[]" value="WEBメディア「オモコロ」「オモコロ ブロス!」へのご相談" />&nbsp;<span class="wpcf7-list-item-label">WEBメディア「オモコロ」「オモコロ ブロス!」へのご相談</span></label>
+                                    </span><span class="wpcf7-list-item"><label><input type="checkbox" name="requirement[]" value="広告制作（WEBサイト・動画・キャンペーン等）のご相談" />&nbsp;<span class="wpcf7-list-item-label">広告制作（WEBサイト・動画・キャンペーン等）のご相談</span></label>
+                                    </span><span class="wpcf7-list-item"><label><input type="checkbox" name="requirement[]" value="YouTubeチャンネル「オモコロチャンネル」へのご相談" />&nbsp;<span class="wpcf7-list-item-label">YouTubeチャンネル「オモコロチャンネル」へのご相談</span></label>
+                                    </span><span class="wpcf7-list-item"><label><input type="checkbox" name="requirement[]" value="オウンドメディア運営・立ち上げのご相談" />&nbsp;<span class="wpcf7-list-item-label">オウンドメディア運営・立ち上げのご相談</span></label>
+                                    </span><span class="wpcf7-list-item"><label><input type="checkbox" name="requirement[]" value="御社メディアへの寄稿のご相談" />&nbsp;<span class="wpcf7-list-item-label">御社メディアへの寄稿のご相談</span></label>
+                                    </span><span class="wpcf7-list-item"><label><input type="checkbox" name="requirement[]" value="地獄のミサワへのご相談" />&nbsp;<span class="wpcf7-list-item-label">地獄のミサワへのご相談</span></label>
+                                    </span><span class="wpcf7-list-item last"><label><input type="checkbox" name="requirement[]" value="その他お問い合わせ" />&nbsp;<span class="wpcf7-list-item-label">その他お問い合わせ</span></label>
+                                    </span>
+                                    </span>
+                                    </span>
+                                    </textarea>
+                                </dd>
+                                <dt class="yosan">ご予算</dt>
+                                <dd class="yosan"><span class="wpcf7-form-control-wrap yosan"><span class="wpcf7-form-control wpcf7-radio radio"><span class="wpcf7-list-item first"><label><input type="radio" name="yosan" value="〜150万" />&nbsp;<span class="wpcf7-list-item-label">〜150万</span></label>
+                                    </span><span class="wpcf7-list-item"><label><input type="radio" name="yosan" value="〜300万" />&nbsp;<span class="wpcf7-list-item-label">〜300万</span></label>
+                                    </span><span class="wpcf7-list-item"><label><input type="radio" name="yosan" value="〜500万" />&nbsp;<span class="wpcf7-list-item-label">〜500万</span></label>
+                                    </span><span class="wpcf7-list-item"><label><input type="radio" name="yosan" value="〜1000万" />&nbsp;<span class="wpcf7-list-item-label">〜1000万</span></label>
+                                    </span><span class="wpcf7-list-item"><label><input type="radio" name="yosan" value="1000万以上" />&nbsp;<span class="wpcf7-list-item-label">1000万以上</span></label>
+                                    </span><span class="wpcf7-list-item last"><label><input type="radio" name="yosan" value="未定" />&nbsp;<span class="wpcf7-list-item-label">未定</span></label>
+                                    </span>
+                                    </span>
+                                    </span>
+                                    </textarea>
+                                </dd>
+                                <dt>お問い合わせ内容</dt>
+                                <dd><span class="wpcf7-form-control-wrap message"><textarea name="message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required input" id="cstm" aria-required="true" aria-invalid="false"></textarea></span></textarea>
+                                </dd>
+                            </dl>
+                            <div class="aligncenter">
+                                <input type="submit" value="送信する" class="wpcf7-form-control wpcf7-submit button" />
+                            </div>
+                            </dd>
+                            <div class="wpcf7-response-output wpcf7-display-none"></div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+
+    <div class="overlay"></div>
+
+    <script type='text/javascript' src='assets/plugins/contact-form-7/includes/js/jquery.form.min.js'></script>
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var _wpcf7 = {
+            "loaderUrl": "http:\/\/bhb.co.jp\/assets\/plugins\/contact-form-7\/images\/ajax-loader.gif",
+            "recaptcha": {
+                "messages": {
+                    "empty": "\u3042\u306a\u305f\u304c\u30ed\u30dc\u30c3\u30c8\u3067\u306f\u306a\u3044\u3053\u3068\u3092\u8a3c\u660e\u3057\u3066\u304f\u3060\u3055\u3044\u3002"
+                }
+            },
+            "sending": "\u9001\u4fe1\u4e2d ...",
+            "cached": "1"
+        };
+        /* ]]> */
+    </script>
+    <script type='text/javascript' src='assets/plugins/contact-form-7/includes/js/scripts.js'></script>
+    <script type='text/javascript' src='wp/wp-includes/js/wp-embed.min.js'></script>
+
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-35312027-1']);
+        _gaq.push(['_setDomainName', 'bhb.co.jp']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+
+            TransitionToUserPage();
+
+            function TransitionToUserPage() {
+                $('.js-link').on('click', function(e) {
+                    // e.stopPropagation();
+                    // e.preventDefault();
+
+                    // window.open($(this).attr('data-url')); 別タブで開く場合
+                    location.href = $(this).attr('data-url');
+                });
+            }
+        })();
+    </script>
+</body>
+
+</html>
