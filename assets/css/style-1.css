@@ -2248,8 +2248,7 @@ footer .inner .footer-right .copy {
     border: 6px solid black;
     width: 53%;
     border-radius: 12px;
-    box-shadow: 0 0 black;
-    box-shadow: -5px 4px 6px 1px #233b6c96;
+    /* box-shadow: -5px 4px 6px 1px #233b6c96; */
 }
 
 
@@ -2850,6 +2849,9 @@ footer .inner .footer-right .copy {
 
 .news-wrapper .news-list-wrapper .list-box .image {
     border: 6px solid black;
+    border-top: transparent;
+    border-right: transparent;
+    border-bottom-right-radius: 50px;
 }
 
 @media (max-width: 767px) {
