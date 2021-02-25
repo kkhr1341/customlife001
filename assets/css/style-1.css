@@ -2247,6 +2247,9 @@ footer .inner .footer-right .copy {
     position: absolute;
     border: 6px solid black;
     width: 53%;
+    border-radius: 12px;
+    box-shadow: 0 0 black;
+    box-shadow: -5px 4px 6px 1px #233b6c96;
 }
 
 
@@ -2585,7 +2588,7 @@ footer .inner .footer-right .copy {
 /* line 303, ../sass/_home.scss */
 
 .about-wrapper .about-wrapper2 .about-container {
-    background-color: #ea5a8f;
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
     margin-top: 6vw;
     height: calc(40vw - 4px);
     display: flex;
