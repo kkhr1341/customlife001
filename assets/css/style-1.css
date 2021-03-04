@@ -3252,7 +3252,7 @@ footer .inner .footer-right .copy {
 /* line 726, ../sass/_home.scss */
 
 .menu-wrapper .menu-content .menu-2 .menu-2-2.lazyloaded:before {
-    background-image: url("../image/home/service001.png");
+    background-image: url("../image/home/service002.png");
 }
 
 
@@ -3328,7 +3328,7 @@ footer .inner .footer-right .copy {
 /* line 772, ../sass/_home.scss */
 
 .menu-wrapper .menu-content .menu-3 .menu-3-1.lazyloaded:before {
-    background-image: url("../image/home/service001.png");
+    background-image: url("../image/home/service003.png");
 }
 
 
@@ -3434,7 +3434,7 @@ footer .inner .footer-right .copy {
 /* line 842, ../sass/_home.scss */
 
 .menu-wrapper .menu-content .menu-4 .menu-4-1.lazyloaded:before {
-    background-image: url("../image/home/service001.png");
+    background-image: url("../image/home/service004.png");
 }
 
 
@@ -6385,7 +6385,7 @@ article.recruit .box .inner .detail {
 /* line 66, ../sass/_recruit.scss */
 
 article.recruit .box .inner .detail .title {
-    font-size: 4vw;
+    font-size: 3.5vw;
     line-height: 1.3;
     margin: 0px 0 20px;
     color: #000;
