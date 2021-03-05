@@ -233,8 +233,8 @@ body {
 -------------------------------- */
 
 @font-face {
-    font-family: 'logo-g';
-    src: url("../fonts/logog2.ttf");
+    font-family: 'fonts';
+    src: url("../fonts/nicoca.ttf");
 }
 
 
@@ -426,7 +426,7 @@ article section .inner h2 {
 .article-h1 h1 {
     font-size: 6vw;
     line-height: 1;
-    font-family: 'logo-g';
+    font-family: 'fonts';
 }
 
 @media (max-width: 767px) {
@@ -1187,7 +1187,7 @@ header ul.menu li div {
 
 header ul.menu li a {
     color: #F1F1E0;
-    font-family: 'logo-g';
+    font-family: 'fonts';
     text-decoration: none;
     vertical-align: middle;
     position: relative;
@@ -1296,7 +1296,7 @@ header ul.menu-sp li div {
 
 header ul.menu-sp li a {
     color: black;
-    font-family: 'logo-g';
+    font-family: 'fonts';
     text-decoration: none;
     vertical-align: middle;
     position: relative;
@@ -1801,7 +1801,7 @@ footer .inner .footer-right .copy {
     color: #000;
     text-decoration: none;
     display: block;
-    font-family: 'logo-g';
+    font-family: 'fonts';
     line-height: 1;
     margin-bottom: 26%;
     position: relative;
@@ -2796,7 +2796,7 @@ footer .inner .footer-right .copy {
 
 .news-wrapper .news-h1 {
     text-align: left;
-    font-family: 'logo-g';
+    font-family: 'fonts';
     font-size: 5vw;
     margin-top: 5%;
 }
@@ -3018,7 +3018,7 @@ footer .inner .footer-right .copy {
 
 .menu-wrapper .news-h1 {
     text-align: left;
-    font-family: 'logo-g';
+    font-family: 'fonts';
     font-size: 5vw;
     margin-top: 5%;
 }
@@ -4104,7 +4104,7 @@ article.company .company-about-wrapper h2 span {
 article.company .company-about-wrapper h3 {
     font-size: 9vw;
     margin: 6% 0 3% 0;
-    font-family: 'logo-g';
+    font-family: 'fonts';
     font-weight: 900;
 }
 
@@ -4846,7 +4846,7 @@ article.service .service-media-wrapper {
 
 article.service .service-media-wrapper h3 {
     font-size: 4vw;
-    font-family: 'logo-g';
+    font-family: 'fonts';
     text-align: left;
     margin-bottom: 2%;
 }
@@ -5092,14 +5092,14 @@ article.service .service-media-media .service-media-content .service-media-right
 
 /* line 169, ../sass/_service.scss */
 
-article.service .service-media-omocoro {
-    background-image: url("../image/home/service001.png");
+article.service .service-media-service {
+    background-image: url("../image/service/001.png");
 }
 
 @media (max-width: 767px) {
     /* line 169, ../sass/_service.scss */
-    article.service .service-media-omocoro {
-        background-image: url("../image/home/service001.png");
+    article.service .service-media-service {
+        background-image: url("../image/service/001.png");
     }
 }
 
@@ -5107,14 +5107,14 @@ article.service .service-media-omocoro {
 /* line 176, ../sass/_service.scss */
 
 article.service .service-media-bros {
-    background-image: url("../image/home/service001.png");
+    background-image: url("../image/service/002.png");
     margin-bottom: 6%;
 }
 
 @media (max-width: 767px) {
     /* line 176, ../sass/_service.scss */
     article.service .service-media-bros {
-        background-image: url("../image/home/service001.png");
+        background-image: url("../image/service/002.png");
     }
 }
 
@@ -5122,7 +5122,7 @@ article.service .service-media-bros {
 /* line 183, ../sass/_service.scss */
 
 article.service .service-media-youtube {
-    background-image: url("../image/home/service001.png");
+    background-image: url("../image/service/003.png");
     margin-bottom: 6%;
 }
 
@@ -5801,7 +5801,7 @@ article.service .service-wrapper .service-about-wrapper .service-about-textarea 
 /* line 587, ../sass/_service.scss */
 
 article.service .service-wrapper .service-about-wrapper .service-about-textarea h2 {
-    font-family: 'logo-g';
+    font-family: 'fonts';
     font-size: 4.5vw;
     line-height: 1.4;
 }
@@ -6337,10 +6337,10 @@ article.recruit .box .title-2 {
     display: inline-block;
     position: absolute;
     left: 0;
-    top: 0;
+    top: -76px;
     background-color: black;
     color: white;
-    font-family: 'logo-g';
+    font-family: 'fonts';
     padding: 0.5vw 3.0vw;
     z-index: 2;
     font-size: 2vw;
@@ -7918,7 +7918,7 @@ article.member section .inner .staff .icon-wrapper .icon:nth-child(4) {
     article.member-staff .h2-sp {
         font-size: 9vw;
         line-height: 1;
-        font-family: 'logo-g';
+        font-family: 'fonts';
         margin-top: calc(7vw + 50px);
     }
 }
@@ -7999,7 +7999,7 @@ article.member-staff .member-wrapper .member-textarea {
 article.member-staff .member-wrapper .member-textarea h2 {
     font-size: 6vw;
     line-height: 1;
-    font-family: 'logo-g';
+    font-family: 'fonts';
 }
 
 @media (max-width: 767px) {
@@ -8098,7 +8098,7 @@ article.member-staff .member-article-h2 {
     text-align: center;
     font-size: 4vw;
     line-height: 1;
-    font-family: 'logo-g';
+    font-family: 'fonts';
     margin-top: 6%;
     margin-bottom: 4%;
 }
