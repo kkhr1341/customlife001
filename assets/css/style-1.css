@@ -1,8 +1,5 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/earlyaccess/notosansjp.css?family=Noto+Sans+JP&display=swap");
-
-/* line 5, ../../../../../../Users/ohtakana/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-
 html,
 body,
 div,
@@ -92,31 +89,19 @@ video {
     vertical-align: baseline;
 }
 
-
-/* line 22, ../../../../../../Users/ohtakana/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-
 html {
     line-height: 1;
 }
-
-
-/* line 24, ../../../../../../Users/ohtakana/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 
 ol,
 ul {
     list-style: none;
 }
 
-
-/* line 26, ../../../../../../Users/ohtakana/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-
 table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-
-
-/* line 28, ../../../../../../Users/ohtakana/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 
 caption,
 th,
@@ -126,16 +111,10 @@ td {
     vertical-align: middle;
 }
 
-
-/* line 30, ../../../../../../Users/ohtakana/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-
 q,
 blockquote {
     quotes: none;
 }
-
-
-/* line 103, ../../../../../../Users/ohtakana/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 
 q:before,
 q:after,
@@ -145,15 +124,9 @@ blockquote:after {
     content: none;
 }
 
-
-/* line 32, ../../../../../../Users/ohtakana/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-
 a img {
     border: none;
 }
-
-
-/* line 116, ../../../../../../Users/ohtakana/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 
 article,
 aside,
@@ -171,22 +144,13 @@ summary {
     display: block;
 }
 
-
-/* line 13, ../sass/style.scss */
-
 img {
     display: block;
 }
 
-
-/* line 16, ../sass/style.scss */
-
 iframe {
     width: 100%;
 }
-
-
-/* line 19, ../sass/style.scss */
 
 html,
 body {
@@ -810,9 +774,6 @@ h2.new-title.member {
         modal
 -------------------------------- */
 
-
-/* line 455, ../sass/style.scss */
-
 .overlay {
     background: rgba(0, 0, 0, 0.6);
     width: 100%;
@@ -823,9 +784,6 @@ h2.new-title.member {
     z-index: 100;
     display: none;
 }
-
-
-/* line 466, ../sass/style.scss */
 
 .modal-window {
     width: 75%;
@@ -3494,6 +3452,15 @@ footer .inner .footer-right .copy {
 
 .menu-wrapper .menu-content .menu-4 .menu-4-2.lazyloaded:before {
     background-image: url("../image/home/bg-menu-contact.png");
+}
+
+
+/* -------------------------------
+余白
+--------------------------------- */
+
+.margin-top {
+    margin-top: 5%;
 }
 
 
