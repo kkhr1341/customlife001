@@ -3088,11 +3088,12 @@ footer .inner .footer-right .copy {
     content: "";
     display: block;
     padding-top: 217%;
-    border: 6px solid;
+    border: groove 13px #233b6c;
     box-sizing: border-box;
     background-position: center;
     background-size: auto 100%;
     transition: all 0.5s ease-out;
+    box-shadow: inset 0 0 116px 90px #8fa0c7;
 }
 
 
@@ -3148,11 +3149,13 @@ footer .inner .footer-right .copy {
     display: block;
     padding-top: 47%;
     margin-bottom: 6%;
-    border: 6px solid;
+    border: groove 13px #233b6c;
     box-sizing: border-box;
     background-position: center;
     background-size: 100% auto;
     transition: all 0.5s ease-out;
+    border: groove 13px #233b6c;
+    box-shadow: inset 0 0 116px 90px #8fa0c7;
 }
 
 
@@ -3192,11 +3195,13 @@ footer .inner .footer-right .copy {
     content: "";
     display: block;
     padding-top: 47%;
-    border: 6px solid;
+    border: groove 13px #233b6c;
     box-sizing: border-box;
     background-position: center;
     background-size: 100% auto;
     transition: all 0.5s ease-out;
+    box-shadow: 0 0 white;
+    box-shadow: inset 0 0 116px 90px #8fa0c7;
 }
 
 
@@ -3268,11 +3273,12 @@ footer .inner .footer-right .copy {
     padding-top: 47%;
     margin-bottom: 6%;
     margin-top: 6%;
-    border: 6px solid;
+    border: groove 13px #233b6c;
     box-sizing: border-box;
     background-size: 100% auto;
     background-position: center;
     transition: all 0.5s ease-out;
+    box-shadow: inset 0 0 116px 90px #8fa0c7;
 }
 
 
@@ -3319,11 +3325,12 @@ footer .inner .footer-right .copy {
     content: "";
     display: block;
     padding-top: 47%;
-    border: 6px solid;
+    border: groove 13px #233b6c;
     box-sizing: border-box;
     background-size: 100% auto;
     background-position: center;
     transition: all 0.5s ease-out;
+    box-shadow: inset 0 0 116px 90px #8fa0c7;
 }
 
 
@@ -3374,11 +3381,12 @@ footer .inner .footer-right .copy {
     padding-top: 100%;
     margin-bottom: 12.8%;
     margin-top: 12.8%;
-    border: 6px solid;
+    border: groove 13px #233b6c;
     box-sizing: border-box;
     background-size: auto 100%;
     background-position: center;
     transition: all 0.5s ease-out;
+    box-shadow: inset 0 0 116px 90px #8fa0c7;
 }
 
 
@@ -5510,7 +5518,6 @@ article.service #slider2 .slick-slide .detail .detail-left .tag,
 article.service #slider3 .slick-slide .detail .detail-left .tag {
     width: 100%;
     color: white;
-    background-color: red;
     letter-spacing: -0.1em;
     font-size: 1vw;
     flex: 1;
