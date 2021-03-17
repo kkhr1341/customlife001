@@ -6318,6 +6318,7 @@ article.recruit .box .title-2 {
     padding: 0.5vw 3.0vw;
     z-index: 2;
     font-size: 2vw;
+    border-radius: 60%;
 }
 
 @media (max-width: 767px) {
