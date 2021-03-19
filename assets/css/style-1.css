@@ -2538,17 +2538,17 @@ footer .inner .footer-right .copy {
 .about-wrapper .about-wrapper2 {
     box-sizing: border-box;
     height: 100%;
-    border-bottom: dotted 4px #adadad;
-    border-top: dotted 4px #adadad;
+    border-bottom: dashed 4px #adadad;
+    border-top: dashed 4px #adadad;
 }
 
 
 /* line 303, ../sass/_home.scss */
 
 .about-wrapper .about-wrapper2 .about-container {
-    background: #ff894c;
+    background: #ff845f;
     margin-top: 6vw;
-    height: calc(40vw - 4px);
+    height: calc(50vw - 4px);
     display: flex;
     align-items: center;
 }
@@ -2557,13 +2557,25 @@ footer .inner .footer-right .copy {
     /* line 303, ../sass/_home.scss */
     .about-wrapper .about-wrapper2 .about-container {
         height: calc(48vw - 4px);
-        height: calc(60vw);
+        height: calc(74vw);
         margin-top: calc(6vw - 4px);
     }
 }
 
 
 /* line 314, ../sass/_home.scss */
+
+.about-btn {
+    padding: 40px 0;
+    width: 51%;
+}
+
+@media screen and (max-width:480px) {
+    .about-btn {
+        width: 90%;
+        padding: 10px 0;
+    }
+}
 
 .about-wrapper .about-wrapper2 .about-container .about-textarea {
     opacity: 0;
