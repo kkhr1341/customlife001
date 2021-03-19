@@ -945,10 +945,10 @@ header {
     width: 100%;
     height: 8vw;
     max-height: 80px;
-    background-color: #233B6C;
+    background-color: rgb(68, 68, 68);
     background-image: url("../image/common/bg-dots.png");
     background-size: 6px 6px;
-    border-bottom: 4px solid black;
+    border-bottom: 4px solid #f15f5f;
     position: relative;
     z-index: 100;
     position: fixed;
@@ -1144,7 +1144,7 @@ header ul.menu li div {
 /* line 701, ../sass/style.scss */
 
 header ul.menu li a {
-    color: #F1F1E0;
+    color: #f8f8f8;
     font-family: 'fonts';
     text-decoration: none;
     vertical-align: middle;
@@ -1195,7 +1195,7 @@ header ul.menu .active:after {
     position: absolute;
     top: 0;
     width: 100%;
-    border-top: 16px solid #ea5a8f;
+    border-top: 16px solid #dc2f2f;
     left: 0;
 }
 
@@ -1309,7 +1309,7 @@ header ul.menu-sp .active:after {
     top: 5vw;
     width: 100%;
     height: 6vw;
-    border-left: 6vw solid #ea5a8f;
+    border-left: 6vw solid #dc2f2f;
     left: 0;
 }
 
@@ -1568,7 +1568,7 @@ div.pickup-works .inner .entries .entry:hover .title a {
 /* line 966, ../sass/style.scss */
 
 footer {
-    background: #000;
+    background: #363636;
     padding: 30px 0 40px;
 }
 
@@ -1795,7 +1795,7 @@ footer .inner .footer-right .copy {
     content: '';
     position: absolute;
     top: 0;
-    background-color: #ea5a8f;
+    background-color: #dc2f2f;
     left: -4vw;
     width: 3vw;
     height: 100%;
@@ -2224,6 +2224,7 @@ footer .inner .footer-right .copy {
 
 .top-wrapper .top-slider .top-slider-slide .image {
     border: 6px solid white;
+    cursor: pointer;
 }
 
 
@@ -2233,7 +2234,7 @@ footer .inner .footer-right .copy {
     height: 5vw;
     width: 100%;
     position: relative;
-    background-color: black;
+    background-color: #363636;
 }
 
 
@@ -2254,7 +2255,7 @@ footer .inner .footer-right .copy {
 /* line 109, ../sass/_home.scss */
 
 .top-wrapper .top-slider .top-slider-slide .detail .date .month {
-    color: #ea5a8f;
+    color: #dc2f2f;
     font-size: 3vw;
 }
 
@@ -2428,7 +2429,7 @@ footer .inner .footer-right .copy {
 /* line 220, ../sass/_home.scss */
 
 .top-wrapper .top-slider-sp .top-slider-slide-sp .detail .date .month {
-    color: #ea5a8f;
+    color: #dc2f2f;
     font-size: 3vw;
 }
 
@@ -2545,7 +2546,7 @@ footer .inner .footer-right .copy {
 /* line 303, ../sass/_home.scss */
 
 .about-wrapper .about-wrapper2 .about-container {
-    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    background: #ff894c;
     margin-top: 6vw;
     height: calc(40vw - 4px);
     display: flex;
@@ -2695,7 +2696,7 @@ footer .inner .footer-right .copy {
 .about-wrapper .about-footer {
     opacity: 0;
     height: 6vw;
-    background-color: black;
+    background-color: #363636;
     width: 48%;
     position: absolute;
     right: 0;
@@ -4051,7 +4052,7 @@ article.company .company-about-wrapper h2 {
     line-height: 1;
     font-size: 2vw;
     font-weight: 900;
-    color: #ea5a8f;
+    color: #dc2f2f;
     letter-spacing: 0.5em;
 }
 
@@ -4135,7 +4136,7 @@ article.company .company-greetings-wrapper h2 {
     line-height: 1;
     font-size: 2vw;
     font-weight: 900;
-    color: #ea5a8f;
+    color: #dc2f2f;
     letter-spacing: 0.5em;
 }
 
@@ -4257,7 +4258,7 @@ article.company .company-profile-wrapper h2 {
     line-height: 1;
     font-size: 2vw;
     font-weight: 900;
-    color: #ea5a8f;
+    color: #dc2f2f;
     letter-spacing: 0.5em;
 }
 
@@ -4357,7 +4358,7 @@ article.company .company-client-wrapper h2 {
     line-height: 1;
     font-size: 2vw;
     font-weight: 900;
-    color: #ea5a8f;
+    color: #dc2f2f;
     letter-spacing: 0.5em;
 }
 
@@ -4797,7 +4798,7 @@ article.service {
 @media (max-width: 767px) {
     /* line 1, ../sass/_service.scss */
     article.service {
-        margin-top: calc(10vw + 60px);
+        margin-top: calc(10vw + 75px);
     }
 }
 
@@ -5040,6 +5041,7 @@ article.service .service-media-media .service-media-content .service-media-right
     z-index: 9;
     position: relative;
     top: -8px;
+    border-radius: 63%;
 }
 
 
@@ -5056,12 +5058,19 @@ article.service .service-media-media .service-media-content .service-media-right
     content: '';
     background-color: black;
     width: 100%;
-    height: 8px;
+    height: 52px;
     display: block;
     position: absolute;
     bottom: 0;
     z-index: 8;
     left: 0;
+    border-radius: 50%;
+}
+
+@media screen and (max-width:480px) {
+    article.service .service-media-media .service-media-content .service-media-right .service-btn .service-btn-black {
+        height: 24px;
+    }
 }
 
 
@@ -5235,9 +5244,9 @@ article.service .service-media-media2 .service-btn {
 /* line 262, ../sass/_service.scss */
 
 article.service .service-media-media2 .service-btn span {
+    text-decoration: none;
     display: block;
     cursor: pointer;
-    text-decoration: none;
     width: 100%;
     height: 100%;
     padding: 3% 0;
@@ -5250,6 +5259,7 @@ article.service .service-media-media2 .service-btn span {
     z-index: 9;
     position: relative;
     top: -8px;
+    border-radius: 63%;
 }
 
 
@@ -5266,12 +5276,19 @@ article.service .service-media-media2 .service-btn .service-btn-black {
     content: '';
     background-color: black;
     width: 100%;
-    height: 8px;
+    height: 52px;
     display: block;
     position: absolute;
     bottom: 0;
     z-index: 8;
     left: 0;
+    border-radius: 50%;
+}
+
+@media screen and (max-width:480px) {
+    article.service .service-media-media2 .service-btn .service-btn-black {
+        height: 24px;
+    }
 }
 
 
@@ -5712,6 +5729,12 @@ article.service .bg-header {
     position: absolute;
     top: 0;
     z-index: -1;
+}
+
+@media screen and (max-width:480px) {
+    article.service .bg-header {
+        top: 30px;
+    }
 }
 
 
@@ -6933,7 +6956,7 @@ article.contact .box .inner .button-area .button-white {
 /* line 157, ../sass/_contact.scss */
 
 .contact-baitai a {
-    color: #ea5a8f;
+    color: #dc2f2f;
     text-decoration: underline;
     font-weight: 900;
     line-height: 1.2;
@@ -7220,7 +7243,7 @@ article.contact .box .inner .button-area .button-white {
 
 .modal-inner .box .inner .wpcf7 .wpcf7-mail-sent-ng {
     border: none 0 transparent;
-    background: #ff0000;
+    background: #dc2f2f;
     color: #FFF;
     padding: 10px;
 }
@@ -7901,7 +7924,7 @@ article.member section .inner .staff .icon-wrapper .icon:nth-child(4) {
 @media (max-width: 767px) {
     /* line 214, ../sass/_member.scss */
     article.member-staff .h3-sp {
-        color: #ea5a8f;
+        color: #dc2f2f;
         font-size: 3.3vw;
         margin: 0 0 5% 0;
         font-weight: 900;
@@ -7988,7 +8011,7 @@ article.member-staff .member-wrapper .member-textarea h2 {
 /* line 265, ../sass/_member.scss */
 
 article.member-staff .member-wrapper .member-textarea h3 {
-    color: #ea5a8f;
+    color: #dc2f2f;
     font-size: 2.3vw;
     margin: 3% 0 3% 0;
     font-weight: 900;

@@ -333,7 +333,7 @@ $(function($) {
             $(".header-hamburger").children('img').attr('src', 'assets/image/header/hamburger.png');
             $('.menu-sp').hide();
             $("header").css('padding-bottom', 'inherit');
-            $("header").css('background-color', '#233B6C');
+            $("header").css('background-color', '#363636');
             spMenu = false;
         }
     });
@@ -355,7 +355,7 @@ $(function($) {
         $(".header-hamburger").children('img').attr('src', 'assets/image/header/hamburger.png');
         $('.menu-sp').hide();
         $("header").css('padding-bottom', 'inherit');
-        $("header").css('background-color', '#233B6C');
+        $("header").css('background-color', '#363636');
         spMenu = false;
     });
 
