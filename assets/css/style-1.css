@@ -8506,7 +8506,7 @@ article.privacy .kaitei {
     }
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:520px) {
     article .bg-header {
         top: 40px!important;
     }
