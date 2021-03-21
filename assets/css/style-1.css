@@ -8429,7 +8429,7 @@ article.member-staff .entry-list .list-box.etc .title a:hover {
 /* line 4, ../sass/_privacy.scss */
 
 article.privacy {
-    margin-top: 130px;
+    margin-top: 210px;
 }
 
 
@@ -8456,6 +8456,9 @@ article.privacy .jyou {
     /* line 14, ../sass/_privacy.scss */
     article.privacy .jyou {
         width: 90%;
+    }
+    article.privacy {
+        margin-top: 140px;
     }
 }
 
