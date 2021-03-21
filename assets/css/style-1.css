@@ -5070,19 +5070,13 @@ article.service .service-media-media .service-media-content .service-media-right
     content: '';
     background-color: black;
     width: 100%;
-    height: 52px;
+    height: 37px;
     display: block;
     position: absolute;
     bottom: 0;
     z-index: 8;
     left: 0;
     border-radius: 50%;
-}
-
-@media screen and (max-width:480px) {
-    article.service .service-media-media .service-media-content .service-media-right .service-btn .service-btn-black {
-        height: 24px;
-    }
 }
 
 
@@ -5288,19 +5282,13 @@ article.service .service-media-media2 .service-btn .service-btn-black {
     content: '';
     background-color: black;
     width: 100%;
-    height: 52px;
+    height: 37px;
     display: block;
     position: absolute;
     bottom: 0;
     z-index: 8;
     left: 0;
     border-radius: 50%;
-}
-
-@media screen and (max-width:480px) {
-    article.service .service-media-media2 .service-btn .service-btn-black {
-        height: 24px;
-    }
 }
 
 
@@ -8526,4 +8514,18 @@ article.privacy .kaitei {
 
 article.recruit .box .title-2 {
     top: -27px;
+}
+
+@media screen and (max-width:780px) {
+    article.service .service-media-media .service-media-content .service-media-right .service-btn .service-btn-black,
+    article.service .service-media-media2 .service-btn .service-btn-black {
+        height: 26px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    article.service .service-media-media .service-media-content .service-media-right .service-btn .service-btn-black,
+    article.service .service-media-media2 .service-btn .service-btn-black {
+        height: 26px;
+    }
 }
