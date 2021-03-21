@@ -8534,4 +8534,8 @@ article.recruit .box .title-2 {
     article.service .service-wrapper .service-about-wrapper {
         width: 100%;
     }
+    article.service .service-wrapper .service-about-wrapper .service-about {
+        display: inline-block;
+        width: 35%;
+    }
 }
