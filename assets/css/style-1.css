@@ -8529,3 +8529,9 @@ article.recruit .box .title-2 {
         height: 26px;
     }
 }
+
+@media screen and (max-width:780px) {
+    article.service .service-wrapper .service-about-wrapper {
+        width: 100%;
+    }
+}
