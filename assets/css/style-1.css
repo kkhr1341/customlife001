@@ -4080,7 +4080,7 @@ article.company .company-about-wrapper h2 {
 
 article.company .company-about-wrapper h2 span {
     letter-spacing: 0;
-    font-family: serif;
+    font-family: 'fonts';
     font-weight: 100;
     font-size: 1.4vw;
     color: #7c7c7c;
@@ -4164,7 +4164,7 @@ article.company .company-greetings-wrapper h2 {
 
 article.company .company-greetings-wrapper h2 span {
     letter-spacing: 0;
-    font-family: serif;
+    font-family: 'fonts';
     font-weight: 100;
     font-size: 1.4vw;
     color: #7c7c7c;
@@ -4286,7 +4286,7 @@ article.company .company-profile-wrapper h2 {
 
 article.company .company-profile-wrapper h2 span {
     letter-spacing: 0;
-    font-family: serif;
+    font-family: 'fonts';
     font-weight: 100;
     font-size: 1.4vw;
     color: #7c7c7c;
@@ -4386,7 +4386,7 @@ article.company .company-client-wrapper h2 {
 
 article.company .company-client-wrapper h2 span {
     letter-spacing: 0;
-    font-family: serif;
+    font-family: 'fonts';
     font-weight: 100;
     font-size: 1.4vw;
     color: #7c7c7c;
@@ -8516,4 +8516,14 @@ article.privacy .kaitei {
     article.privacy .kaitei {
         width: 90%;
     }
+}
+
+@media screen and (max-width:480px) {
+    article .bg-header {
+        top: 40px!important;
+    }
+}
+
+article.recruit .box .title-2 {
+    top: -27px;
 }
